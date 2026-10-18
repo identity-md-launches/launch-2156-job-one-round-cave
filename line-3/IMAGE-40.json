@@ -1,0 +1,41 @@
+{
+  "wall": "artifacts/line-3/wall-v21.png",
+  "continuation": "artifacts/line-3/wall.png",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "bytes": 3948530,
+  "sha256": "f6becd854422a42d222d090ac30e0d2bd6adb939354eed0d3b3aaaf59b1f71f9",
+  "ancestor_sha256": "83acc532cde005cfbca3276b4d1bd77f54af6c61f500bb9ca593cd7d786f862d",
+  "generated_motif_sha256": "3027f1ce05a8365b4c712bf1929808c5f7f0c6599f009c7237a15bfca299faed",
+  "new_mark_rectangle": [
+    535,
+    105,
+    245,
+    90
+  ],
+  "changed_pixels": 1836,
+  "changed_pixels_outside_rectangle": 0,
+  "thumbnail": {
+    "path": "dist/line-3/40.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 75402
+  },
+  "visual_review": "Inspected final full PNG and 512-pixel JPEG. Two small ochre-filled charcoal bowls on upper rock; inherited Pepe figures, pigment, rock, cracks, lighting and framing preserved. No new hands, handprints, text, numbers or borders. Motif is subtle at thumbnail scale.",
+  "hand_review": {
+    "new_hands": 0,
+    "new_handprints": 0,
+    "inherited_open_hand_visible_digits": 5,
+    "inherited_gripping_hand": "Partly occluded; full count unverified and unchanged."
+  },
+  "unmet_visual_requirements": [
+    "The complete digit count of an inherited partly occluded gripping hand cannot be confirmed."
+  ]
+}

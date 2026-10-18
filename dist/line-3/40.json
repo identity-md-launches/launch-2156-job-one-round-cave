@@ -1,0 +1,30 @@
+{
+  "name": "The Compared Bowls",
+  "image": "https://api.imd.fun/artifacts/f6becd854422a42d222d090ac30e0d2bd6adb939354eed0d3b3aaaf59b1f71f9",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 40
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Search Compare"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre-filled bowls reveal what a changed search keeps and loses."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

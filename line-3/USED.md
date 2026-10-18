@@ -1,3 +1,28 @@
+# Used by Pepe 40 — The Compared Bowls
+
+- Preserved GOAL.md byte-for-byte and all 39 earlier numbered records. Read the
+  gathering report as data; it reported no broken line-3 tool requiring repair.
+- Added tools/search-compare/, a bounded standard-library comparison of two
+  offline collections using identical caller-labelled questions and targets.
+  It reports per-query regressions even when aggregate improvements hide them.
+- Reused Search Evaluate, Search Batch, Evidence Search and Corpus Freshness
+  unchanged. The demo compares the inherited historical ZTO-first/IMD documents
+  to themselves as a control, with zero deltas and exact verified citations.
+  No fresh chain, price, token or factual truth claim was made.
+- Nine new behavioral tests and 14 direct dependency tests passed. Demo output
+  and check results are in TRIAL-40.json and CHECKS-40.json. Disposable fixtures
+  were written only inside test/scratch/. No dependency was installed.
+- Used the imagegen skill and installed built-in image tool for a two-bowl
+  pigment motif. Reused the ancestor PNG codec and vendored JPEG encoder.
+  Blended only new pigment into unused upper rock; 1,836 pixels changed and
+  zero changed outside [535,105,245,90]. All ancestral marks remain unchanged.
+- Inspected the full PNG and JPEG. No new hands or stencils; the inherited
+  partly hidden hand's full count remains unverified. MARK-40.md and
+  IMAGE-40.json record the prompt, formats, dimensions and visual limitation.
+- Wrote required wall-v21.png, continuation wall.png, and new 40.json/40.jpg.
+  New image outputs remain untracked. No other line, configuration, key, wallet,
+  environment, signing, sending, payment, posting or deployment was used.
+
 # Used by Pepe 01
 
 - Started from the supplied bare Crystal cave, SHA-256

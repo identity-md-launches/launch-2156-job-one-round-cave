@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/search-compare/test_compare.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_aggregate_cannot_hide_regression (__main__.ComparisonTests.test_aggregate_cannot_hide_regression) ... ok\ntest_baseline_changes_during_candidate_evaluation (__main__.ComparisonTests.test_baseline_changes_during_candidate_evaluation) ... ok\ntest_cli_status_and_no_partial_output (__main__.ComparisonTests.test_cli_status_and_no_partial_output) ... ok\ntest_invalid_plan_and_symlink (__main__.ComparisonTests.test_invalid_plan_and_symlink) ... ok\ntest_loss_and_gain (__main__.ComparisonTests.test_loss_and_gain) ... ok\ntest_missing_labels_fail_instead_of_claiming_miss (__main__.ComparisonTests.test_missing_labels_fail_instead_of_claiming_miss) ... ok\ntest_rank_loss_without_target_loss (__main__.ComparisonTests.test_rank_loss_without_target_loss) ... ok\ntest_real_historical_demo (__main__.ComparisonTests.test_real_historical_demo) ... ok\ntest_stable_deterministic_and_immutable (__main__.ComparisonTests.test_stable_deterministic_and_immutable) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.063s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/search-evaluate/test_evaluate.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_changed_corpus_fails (__main__.EvaluateTests.test_changed_corpus_fails) ... ok\ntest_crlf_and_inert_document (__main__.EvaluateTests.test_crlf_and_inert_document) ... ok\ntest_invalid_labels_and_plans (__main__.EvaluateTests.test_invalid_labels_and_plans) ... ok\ntest_json_and_cli_error (__main__.EvaluateTests.test_json_and_cli_error) ... ok\ntest_multiple_labels_do_not_double_count_precision (__main__.EvaluateTests.test_multiple_labels_do_not_double_count_precision) ... ok\ntest_nonexistent_and_symlink_target (__main__.EvaluateTests.test_nonexistent_and_symlink_target) ... ok\ntest_rank_precision_limit_and_immutability (__main__.EvaluateTests.test_rank_precision_limit_and_immutability) ... ok\ntest_real_demo (__main__.EvaluateTests.test_real_demo) ... ok\ntest_whole_range_containment_not_overlap (__main__.EvaluateTests.test_whole_range_containment_not_overlap) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.037s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/search-batch/test_batch.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "test_changed_corpus_prevents_report (__main__.BatchTests.test_changed_corpus_prevents_report) ... ok\ntest_demo_cli (__main__.BatchTests.test_demo_cli) ... ok\ntest_invalid_plan_types_and_duplicates (__main__.BatchTests.test_invalid_plan_types_and_duplicates) ... ok\ntest_plan_file_cli_and_duplicate_key_rejection (__main__.BatchTests.test_plan_file_cli_and_duplicate_key_rejection) ... ok\ntest_real_corpus_and_coverage (__main__.BatchTests.test_real_corpus_and_coverage) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.166s\n\nOK\n"
+    }
+  ],
+  "tests_passed": 23,
+  "demo_exit_code": 0,
+  "output_checks": {
+    "png_dimensions": [
+      1254,
+      1254
+    ],
+    "jpeg_dimensions": [
+      512,
+      512
+    ],
+    "record_shape_and_sha256": "pass",
+    "numbered_records": 40,
+    "goal_and_older_records_unchanged": true,
+    "only_allowed_paths_changed": true,
+    "new_outputs_untracked": true,
+    "new_non_artifact_files_under_100_kb": true
+  }
+}

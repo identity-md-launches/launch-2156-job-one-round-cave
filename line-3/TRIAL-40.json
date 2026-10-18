@@ -1,0 +1,306 @@
+{
+  "format": "evidence-search-comparison/v1",
+  "judgments_sha256": "204558cba3f99e5960d1ba29f17b7a22f1413c890ddd568ed1260eb93d9bf240",
+  "judgments": {
+    "format": "evidence-search-judgments/v1",
+    "queries": [
+      {
+        "id": "decimals",
+        "query": "ZTO token decimals",
+        "limit": 2,
+        "require_all": true,
+        "targets": [
+          {
+            "path": "zto.md",
+            "line_start": 6,
+            "line_end": 6
+          }
+        ]
+      },
+      {
+        "id": "pool",
+        "query": "ZTO pool tick spacing",
+        "limit": 2,
+        "require_all": true,
+        "targets": [
+          {
+            "path": "pool.md",
+            "line_start": 6,
+            "line_end": 6
+          }
+        ]
+      },
+      {
+        "id": "missed",
+        "query": "glacial orchid",
+        "limit": 2,
+        "require_all": true,
+        "targets": [
+          {
+            "path": "imd.md",
+            "line_start": 6,
+            "line_end": 6
+          }
+        ]
+      }
+    ]
+  },
+  "baseline": {
+    "format": "evidence-search-evaluation/v1",
+    "corpus_sha256": "1ba28bb96283d19e516ebb7f5f03053e6e8baaa720090b7621134e945aff8cb6",
+    "indexed_documents": 3,
+    "queries": [
+      {
+        "id": "decimals",
+        "query": "ZTO token decimals",
+        "limit": 2,
+        "require_all": true,
+        "hits": [
+          {
+            "path": "zto.md",
+            "line_start": 1,
+            "line_end": 9,
+            "citation": "zto.md:1-9",
+            "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+            "source_verified": true,
+            "score": 1.98479013,
+            "matched_terms": [
+              "decimals",
+              "token",
+              "zto"
+            ],
+            "text": "# ZTO on Ethereum\n\nZTO token name: Zero To One.\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\nChain ID: 1 (Ethereum mainnet).\nToken decimals: 18.\nTotal supply in smallest token units: 1000000000000000000000000000.\n\n## Observation and trust"
+          }
+        ],
+        "found": [
+          {
+            "path": "zto.md",
+            "line_start": 6,
+            "line_end": 6,
+            "ranks": [
+              1
+            ]
+          }
+        ],
+        "missed": [],
+        "target_recall": 1.0,
+        "labelled_hit_precision": 1.0,
+        "reciprocal_rank": 1.0
+      },
+      {
+        "id": "pool",
+        "query": "ZTO pool tick spacing",
+        "limit": 2,
+        "require_all": true,
+        "hits": [
+          {
+            "path": "pool.md",
+            "line_start": 1,
+            "line_end": 10,
+            "citation": "pool.md:1-10",
+            "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+            "source_verified": true,
+            "score": 5.61137984,
+            "matched_terms": [
+              "pool",
+              "spacing",
+              "tick",
+              "zto"
+            ],
+            "text": "# ZTO and IMD pool reference\n\nZTO is paired with IMD in a Uniswap v4 pool on Ethereum.\nPoolManager: 0x000000000004444c5dc75cB358380D2e3dE08A90.\nPool ID: 0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592.\nPool fee: 12500. Tick spacing: 60.\nZTO contract: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\nIMD contract: 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7.\n\n## Source boundary"
+          }
+        ],
+        "found": [
+          {
+            "path": "pool.md",
+            "line_start": 6,
+            "line_end": 6,
+            "ranks": [
+              1
+            ]
+          }
+        ],
+        "missed": [],
+        "target_recall": 1.0,
+        "labelled_hit_precision": 1.0,
+        "reciprocal_rank": 1.0
+      },
+      {
+        "id": "missed",
+        "query": "glacial orchid",
+        "limit": 2,
+        "require_all": true,
+        "hits": [],
+        "found": [],
+        "missed": [
+          {
+            "path": "imd.md",
+            "line_start": 6,
+            "line_end": 6
+          }
+        ],
+        "target_recall": 0.0,
+        "labelled_hit_precision": 0.0,
+        "reciprocal_rank": 0.0
+      }
+    ],
+    "macro": {
+      "target_recall": 0.6666666666666666,
+      "labelled_hit_precision": 0.6666666666666666,
+      "reciprocal_rank": 0.6666666666666666
+    },
+    "all_targets_found": false
+  },
+  "candidate": {
+    "format": "evidence-search-evaluation/v1",
+    "corpus_sha256": "1ba28bb96283d19e516ebb7f5f03053e6e8baaa720090b7621134e945aff8cb6",
+    "indexed_documents": 3,
+    "queries": [
+      {
+        "id": "decimals",
+        "query": "ZTO token decimals",
+        "limit": 2,
+        "require_all": true,
+        "hits": [
+          {
+            "path": "zto.md",
+            "line_start": 1,
+            "line_end": 9,
+            "citation": "zto.md:1-9",
+            "sha256": "03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009",
+            "source_verified": true,
+            "score": 1.98479013,
+            "matched_terms": [
+              "decimals",
+              "token",
+              "zto"
+            ],
+            "text": "# ZTO on Ethereum\n\nZTO token name: Zero To One.\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\nChain ID: 1 (Ethereum mainnet).\nToken decimals: 18.\nTotal supply in smallest token units: 1000000000000000000000000000.\n\n## Observation and trust"
+          }
+        ],
+        "found": [
+          {
+            "path": "zto.md",
+            "line_start": 6,
+            "line_end": 6,
+            "ranks": [
+              1
+            ]
+          }
+        ],
+        "missed": [],
+        "target_recall": 1.0,
+        "labelled_hit_precision": 1.0,
+        "reciprocal_rank": 1.0
+      },
+      {
+        "id": "pool",
+        "query": "ZTO pool tick spacing",
+        "limit": 2,
+        "require_all": true,
+        "hits": [
+          {
+            "path": "pool.md",
+            "line_start": 1,
+            "line_end": 10,
+            "citation": "pool.md:1-10",
+            "sha256": "c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b",
+            "source_verified": true,
+            "score": 5.61137984,
+            "matched_terms": [
+              "pool",
+              "spacing",
+              "tick",
+              "zto"
+            ],
+            "text": "# ZTO and IMD pool reference\n\nZTO is paired with IMD in a Uniswap v4 pool on Ethereum.\nPoolManager: 0x000000000004444c5dc75cB358380D2e3dE08A90.\nPool ID: 0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592.\nPool fee: 12500. Tick spacing: 60.\nZTO contract: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\nIMD contract: 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7.\n\n## Source boundary"
+          }
+        ],
+        "found": [
+          {
+            "path": "pool.md",
+            "line_start": 6,
+            "line_end": 6,
+            "ranks": [
+              1
+            ]
+          }
+        ],
+        "missed": [],
+        "target_recall": 1.0,
+        "labelled_hit_precision": 1.0,
+        "reciprocal_rank": 1.0
+      },
+      {
+        "id": "missed",
+        "query": "glacial orchid",
+        "limit": 2,
+        "require_all": true,
+        "hits": [],
+        "found": [],
+        "missed": [
+          {
+            "path": "imd.md",
+            "line_start": 6,
+            "line_end": 6
+          }
+        ],
+        "target_recall": 0.0,
+        "labelled_hit_precision": 0.0,
+        "reciprocal_rank": 0.0
+      }
+    ],
+    "macro": {
+      "target_recall": 0.6666666666666666,
+      "labelled_hit_precision": 0.6666666666666666,
+      "reciprocal_rank": 0.6666666666666666
+    },
+    "all_targets_found": false
+  },
+  "queries": [
+    {
+      "id": "decimals",
+      "delta": {
+        "target_recall": 0.0,
+        "labelled_hit_precision": 0.0,
+        "reciprocal_rank": 0.0
+      },
+      "regressed_metrics": [],
+      "improved_metrics": [],
+      "lost_targets": [],
+      "gained_targets": []
+    },
+    {
+      "id": "pool",
+      "delta": {
+        "target_recall": 0.0,
+        "labelled_hit_precision": 0.0,
+        "reciprocal_rank": 0.0
+      },
+      "regressed_metrics": [],
+      "improved_metrics": [],
+      "lost_targets": [],
+      "gained_targets": []
+    },
+    {
+      "id": "missed",
+      "delta": {
+        "target_recall": 0.0,
+        "labelled_hit_precision": 0.0,
+        "reciprocal_rank": 0.0
+      },
+      "regressed_metrics": [],
+      "improved_metrics": [],
+      "lost_targets": [],
+      "gained_targets": []
+    }
+  ],
+  "macro_delta": {
+    "target_recall": 0.0,
+    "labelled_hit_precision": 0.0,
+    "reciprocal_rank": 0.0
+  },
+  "regressed_query_ids": [],
+  "improved_query_ids": [],
+  "no_regressions": true
+}
