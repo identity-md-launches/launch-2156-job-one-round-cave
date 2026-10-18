@@ -1,0 +1,12 @@
+{
+  "repair": "Restore required named output from the completed wall, byte for byte.",
+  "output": "artifacts/line-1/wall-v21.png",
+  "format": "PNG",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "08142e526c7b22ae8f215d93187ba104c27226117a22264659319fad5097cfd6",
+  "matches_latest_record": true,
+  "png_chunk_checksums_valid": true,
+  "visual_review": "Existing cave and Pepe artwork inspected; inherited marks preserved by exact byte copy. No new visual edits.",
+  "unmet_visual_requirements": []
+}
