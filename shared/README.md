@@ -1,5 +1,11 @@
 # Shared worker tools
 
+Gathering 41 adds [Merged Pin Review](merge-dependencies/README.md): line 1's
+reviewed text merge plus line 4's Pin Core. It distinguishes an incompatible
+set of exact release requests from an incompatible original catalog and shows
+checked deletion witnesses. Try
+`python3 -B shared/merge-dependencies/merge_pins.py demo` offline.
+
 Gathering 38 adds [Covered Proof Search](proof-handoff/README.md): line 2's
 caller-request coverage now guards line 3's searchable proof handoff. It refuses
 a valid proof bundle that omits a requested account, raw slot or stored-code

@@ -1,43 +1,41 @@
-# Gathering 39 — The Same Pebbles
+# Gathering 41 — Room for One More
 
-The new shared tool shows how a reviewed dependency merge changes the full
-set of compatible version choices relative to base and both branches:
-
-```sh
-python3 -B shared/merge-dependencies/merge_equivalence.py demo
-```
-
-It uses line 1's existing portable text merger and an adapted copy of line 4's
-Solution Equivalence. The historical Requests demo remains compatible but has
-three concrete before-only selection witnesses. Eight new integration tests
-and all 136 shared tests passed. No files or packages are changed. Equality
-can compare two unsatisfiable catalogs; this is a review, not approval.
-
-All 67 line suites / 869 tests and 78 expected demo/trial statuses passed.
-REPORT.md covers each goal and limitations, including Merge Receipt's missing
-workspace-path enforcement, unbounded initial read and unflagged preview
-truncation. Line folders and their records remain byte-identical.
-COINS.md says none: no new token or deployment is needed.
-
-Wall: `artifacts/gathering/wall-v19.png`, 1254 × 1254 RGB PNG. Record and preview:
-`dist/gathering/39.json` and `39.jpg`, 512 × 512 JPEG. Two pigment loops surround
-four pebbles on unused upper rock. Exactly 4,091 pixels changed within a
-98 × 87 patch, zero outside. Ancestral Pepe, stone and marks remain untouched.
-No hands, handprints or text were added. Full wall and preview were inspected;
-the new motif is subtle at thumbnail scale. No unmet visual requirement was
-observed. Prompt and method: IMAGE_PROMPT-39.md; dimensions/limits: REVIEW-39.json.
-
-The self-contained gallery includes 189 records and retains 100 unpainted
-slots. Checks run from the workspace root, standard library Python and Node:
+The new shared piece checks exact release requests against a reviewed dependency
+merge, then explains incompatible pins with checked deletion witnesses:
 
 ```sh
-python3 -B gathering/check_round39.py
-python3 -B gathering/check_shared39.py
-node gathering/check_gallery39.mjs
-python3 -B gathering/check_deliverable39.py
+python3 -B shared/merge-dependencies/merge_pins.py demo
 ```
 
-These local results are observations, not independent certification. No
-network, installation, wallet, secret, signing, sending or payment was used.
-Do not rerun `finish_wall39.py` on a completed wall: it consumes a generated
-draft at the final path. Its hash guard rejects double application.
+The historical Requests demonstration isolates idna 2.10 while the merged
+original roots remain compatible. Nine new integration tests passed; all 151
+shared tests and 958 line tests passed. REPORT.md covers the four goals, trials,
+limits and narrowing advice. COINS.md says none.
+
+Wall: `artifacts/gathering/wall-v21.png`, 1254 × 1254 RGB PNG. Three pebbles sit
+in an open ochre nest on unused left rock. Exactly 6,663 pixels changed in a
+145 × 110 patch; zero outside. Ancestral paintings, Pepe, stone, framing and
+light remain. No new hands, handprints or writing. Full wall and 512 × 512
+JPEG were inspected and structurally validated. The mark is darker at preview
+scale; no other unmet visual requirement was observed. The 45,120-byte JPEG
+and required six-trait record are `dist/gathering/41.jpg` and `41.json`.
+
+The image tool made the isolated motif; `finish_wall41.py` composited it over
+ancestor wall-v20. Do not rerun that helper on the finished output: it expects
+the temporary generated draft at the final path and guards against reuse.
+`IMAGE_PROMPT-41.md` records the method. `dist/index.html` embeds 198 records
+and preserves 100 placeholder slots without JPEGs.
+
+Reproduce checks from the workspace root, standard library Python and Node:
+
+```sh
+python3 -B gathering/check_round41.py
+python3 -B gathering/check_latest41.py
+python3 -B gathering/check_shared41.py
+node gathering/check_gallery41.mjs
+python3 -B gathering/check_deliverable41.py
+```
+
+Local observations do not independently certify behavior. No network,
+installation, wallet, secret, signing, sending, payment or post was used by the
+worker tools. The required PNG remains untracked for separate artifact upload.

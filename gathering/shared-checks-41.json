@@ -1,0 +1,789 @@
+{
+  "suites": [
+    {
+      "tool": "shared/catalog-evidence",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/catalog-evidence",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 16,
+      "log": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.022s\n\nOK\n"
+    },
+    {
+      "tool": "shared/merge-citations",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/merge-citations",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 34,
+      "log": "..................................\n----------------------------------------------------------------------\nRan 34 tests in 0.914s\n\nOK\n"
+    },
+    {
+      "tool": "shared/merge-dependencies",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/merge-dependencies",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 67,
+      "log": "...................................................................\n----------------------------------------------------------------------\nRan 67 tests in 2.352s\n\nOK\n"
+    },
+    {
+      "tool": "shared/proof-handoff",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/proof-handoff",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 20,
+      "log": "....................\n----------------------------------------------------------------------\nRan 20 tests in 3.036s\n\nOK\n"
+    },
+    {
+      "tool": "shared/proof-search",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "shared/proof-search",
+        "-p",
+        "test_*.py"
+      ],
+      "exit": 0,
+      "tests": 14,
+      "log": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.694s\n\nOK\n"
+    }
+  ],
+  "total_tests": 151,
+  "demos": [
+    {
+      "command": "python3 -B shared/proof-handoff/covered_search.py demo",
+      "exit": 0,
+      "result": {
+        "format": "covered-proof-search/v1",
+        "verified": true,
+        "request_sha256": "fe73c071e039b1c7202b72bb21b5b767b796ba94e85975aa1847034a0fdbad0b",
+        "coverage": [
+          {
+            "address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+            "slots": [
+              "0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b"
+            ],
+            "code": false
+          },
+          {
+            "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+            "slots": [
+              "0x0",
+              "0x1"
+            ],
+            "code": true
+          }
+        ],
+        "handoff": {
+          "format": "proof-handoff-checked/v1",
+          "verified": true,
+          "proofs_verified": true,
+          "corpus_matches_proofs": true,
+          "receipt_reproduced": true,
+          "bundle_sha256": "57ba25ab26d159efaa1c07dc28c1dc0a0e0914049df9646b46374fd04621089f",
+          "manifest_sha256": "a4e9d3fb56c90bf1202ac3d53b8ce7c557febe06d88581a9430a2f6a59f14e8f",
+          "anchor": {
+            "blockHash": "0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc",
+            "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+            "blockNumber": "0x18ff826",
+            "timestamp": "0x6ad36f57",
+            "headerSchema": "prague"
+          },
+          "accounts": 2,
+          "search": {
+            "format": "evidence-search-results/v1",
+            "hits": [
+              {
+                "citation": "000000000004444c5dc75cb358380d2e3de08a90.md:17-26",
+                "line_end": 26,
+                "line_start": 17,
+                "matched_terms": [
+                  "storage",
+                  "value"
+                ],
+                "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+                "score": 2.74965503,
+                "sha256": "f5f2e0f247f6f13719086bde4fc536821fc859406f939e1eafceb97b83dc8358",
+                "source_verified": true,
+                "text": "      \"storage\": [\n        {\n          \"exists\": true,\n          \"slot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n          \"value\": \"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n        }\n      ],\n      \"storageRoot\": \"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\n      \"verified\": true\n    }"
+              },
+              {
+                "citation": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md:25-34",
+                "line_end": 34,
+                "line_start": 25,
+                "matched_terms": [
+                  "value"
+                ],
+                "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+                "score": 2.3540622,
+                "sha256": "1038dacf5518b723f65fd89fbc34068dfdf764be00333893c183f0a8d9aa1f15",
+                "source_verified": true,
+                "text": "          \"exists\": false,\n          \"slot\": \"0x0\",\n          \"value\": \"0x0\"\n        },\n        {\n          \"exists\": false,\n          \"slot\": \"0x1\",\n          \"value\": \"0x0\"\n        }\n      ],"
+              },
+              {
+                "citation": "000000000004444c5dc75cb358380d2e3de08a90.md:1-10",
+                "line_end": 10,
+                "line_start": 1,
+                "matched_terms": [
+                  "storage"
+                ],
+                "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+                "score": 0.48875126,
+                "sha256": "f5f2e0f247f6f13719086bde4fc536821fc859406f939e1eafceb97b83dc8358",
+                "source_verified": true,
+                "text": "# Ethereum account proof result\nAddress: 0x000000000004444c5dc75cb358380d2e3de08a90\nBlock number (decimal): 26212390\nCheckpoint, canonicality and finality require independent authentication.\nRaw storage slots are not interpreted as price, decimals or token balance.\nStored code identity does not establish source or execution behavior.\n```json\n{\n  \"account\": {\n    \"state\": {"
+              },
+              {
+                "citation": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md:1-10",
+                "line_end": 10,
+                "line_start": 1,
+                "matched_terms": [
+                  "storage"
+                ],
+                "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+                "score": 0.48875126,
+                "sha256": "1038dacf5518b723f65fd89fbc34068dfdf764be00333893c183f0a8d9aa1f15",
+                "source_verified": true,
+                "text": "# Ethereum account proof result\nAddress: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\nBlock number (decimal): 26212390\nCheckpoint, canonicality and finality require independent authentication.\nRaw storage slots are not interpreted as price, decimals or token balance.\nStored code identity does not establish source or execution behavior.\n```json\n{\n  \"account\": {\n    \"code\": {"
+              }
+            ],
+            "indexed_documents": 2,
+            "indexed_passages": 11,
+            "query": "storage value",
+            "require_all": false,
+            "terms": [
+              "storage",
+              "value"
+            ]
+          },
+          "trust": "Every listed account and slot is proven against one header matching the supplied hash. The caller must authenticate that hash, chain, canonicality and finality independently. Code checks establish stored byte identity only, not source, ABI, layout, proxy targets or behavior."
+        },
+        "limits": [
+          "Authenticate the caller request and checkpoint independently.",
+          "Coverage is exact accounts, raw slots and code presence; not storage interpretation.",
+          "Historical proof results are not current state, price or payment authorization.",
+          "Keep inputs static; rereads are not an atomic snapshot."
+        ],
+        "demo": "Real historical ZTO and ZTO/IMD proofs; inherited RPC checkpoint, not consensus authentication."
+      }
+    },
+    {
+      "command": "python3 -B shared/claim-bridge/bridge.py demo",
+      "exit": 0,
+      "result": {
+        "checked": [
+          {
+            "line_end": 26,
+            "line_start": 17,
+            "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+            "verified": true
+          },
+          {
+            "line_end": 34,
+            "line_start": 25,
+            "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+            "verified": true
+          },
+          {
+            "line_end": 10,
+            "line_start": 1,
+            "path": "000000000004444c5dc75cb358380d2e3de08a90.md",
+            "verified": true
+          },
+          {
+            "line_end": 10,
+            "line_start": 1,
+            "path": "d782bdea4ef02a0bd391eb9089470c8080f0a68e.md",
+            "verified": true
+          }
+        ],
+        "citations": 4,
+        "documents": 2,
+        "failures": [],
+        "format": "claim-bridge/v1",
+        "trust": "Citation integrity only; proof checkpoint trust remains external.",
+        "verified": true
+      }
+    },
+    {
+      "command": "python3 -B shared/merge-dependencies/merge_equivalence.py demo",
+      "exit": 0,
+      "result": {
+        "comparisons": {
+          "base": {
+            "after_sha256": "84de5685fdf13ae3585711058affcc9fe84dac3c2daca1fafb96974d965e510f",
+            "before_sha256": "14fc8d9e6d8336191d577c00406ab81028fd3d464f74e8bf9ca138ab080483ce",
+            "candidate_assignments": 216,
+            "checked_assignments": 21,
+            "counterexample": {
+              "accepted_after": false,
+              "accepted_before": true,
+              "selected": {
+                "certifi": "2025.8.3.0",
+                "charset-normalizer": "3.4.3.0",
+                "idna": "2.10.0.0",
+                "requests": "2.31.0.0",
+                "urllib3": "1.26.20.0"
+              }
+            },
+            "max_assignments": 10000,
+            "method": "finite-selection-equivalence-v1",
+            "release_labels": "four numeric components; equivalent numeric labels coalesced",
+            "status": "different"
+          },
+          "ours": {
+            "after_sha256": "84de5685fdf13ae3585711058affcc9fe84dac3c2daca1fafb96974d965e510f",
+            "before_sha256": "095b56d9b9d273e60293f7c137d20d5e83870d078d2e39eedd1510b09bf96148",
+            "candidate_assignments": 216,
+            "checked_assignments": 23,
+            "counterexample": {
+              "accepted_after": false,
+              "accepted_before": true,
+              "selected": {
+                "certifi": "2025.8.3.0",
+                "charset-normalizer": "3.4.3.0",
+                "idna": "2.10.0.0",
+                "requests": "2.32.5.0",
+                "urllib3": "1.26.20.0"
+              }
+            },
+            "max_assignments": 10000,
+            "method": "finite-selection-equivalence-v1",
+            "release_labels": "four numeric components; equivalent numeric labels coalesced",
+            "status": "different"
+          },
+          "theirs": {
+            "after_sha256": "84de5685fdf13ae3585711058affcc9fe84dac3c2daca1fafb96974d965e510f",
+            "before_sha256": "06a293804ea15fb08942ef15caa2f5479d3c574c7775bf4eb6dd05a914f7860d",
+            "candidate_assignments": 216,
+            "checked_assignments": 27,
+            "counterexample": {
+              "accepted_after": false,
+              "accepted_before": true,
+              "selected": {
+                "certifi": "2025.8.3.0",
+                "charset-normalizer": "3.4.3.0",
+                "idna": "3.10.0.0",
+                "requests": "2.31.0.0",
+                "urllib3": "1.26.20.0"
+              }
+            },
+            "max_assignments": 10000,
+            "method": "finite-selection-equivalence-v1",
+            "release_labels": "four numeric components; equivalent numeric labels coalesced",
+            "status": "different"
+          }
+        },
+        "format": "merge-selection-equivalence/v1",
+        "limits": [
+          "No inputs are changed; this is a review, not approval or an installation.",
+          "Each comparison has its own assignment budget; elapsed time is not bounded.",
+          "Preserved means identical finite selection sets, including two empty sets.",
+          "A different result supplies one counterexample, not every change.",
+          "All comparisons share numeric parsing and edge checking.",
+          "No publisher, artifact, platform, security or package behavior claim."
+        ],
+        "review": {
+          "clean": true,
+          "conflicts": [],
+          "diffs": {
+            "ours": "--- BASE\n+++ OURS\n@@ -44,7 +44,7 @@\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n     \"idna\": \"*\",\n-    \"requests\": \"==2.31.0\",\n+    \"requests\": \"==2.32.5\",\n     \"urllib3\": \"<2\"\n   }\n }\n",
+            "theirs": "--- BASE\n+++ THEIRS\n@@ -43,7 +43,7 @@\n   },\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n-    \"idna\": \"*\",\n+    \"idna\": \">=3.10\",\n     \"requests\": \"==2.31.0\",\n     \"urllib3\": \"<2\"\n   }\n"
+          },
+          "inputs": {
+            "base": {
+              "bytes": 961,
+              "lines": 50,
+              "sha256": "1d5462c17d9d05372c591431f84d63c5237d2fedeb27187a1c1498bcf3a4edb7"
+            },
+            "ours": {
+              "bytes": 961,
+              "lines": 50,
+              "sha256": "1ed68e5120cd756fb4d8940eebbaab83b98068fb83f5c7a528fb657a1cf6d2df"
+            },
+            "theirs": {
+              "bytes": 966,
+              "lines": 50,
+              "sha256": "0089042156936454a8fbea88400b431d40e3e2ec334c20a058447fcc425f59d5"
+            }
+          },
+          "limits": [
+            "Line-based alignment can be ambiguous on repeated text.",
+            "Clean means no textual conflict, not semantic correctness.",
+            "Hashes identify bytes; they do not authenticate an author."
+          ],
+          "merged": "{\n  \"packages\": {\n    \"certifi\": {\n      \"2025.10.5\": {},\n      \"2025.8.3\": {}\n    },\n    \"chardet\": {\n      \"4.0.0\": {}\n    },\n    \"charset-normalizer\": {\n      \"3.4.3\": {},\n      \"3.4.4\": {}\n    },\n    \"idna\": {\n      \"2.10\": {},\n      \"3.10\": {},\n      \"3.11\": {}\n    },\n    \"requests\": {\n      \"2.25.1\": {\n        \"certifi\": \">=2017.4.17\",\n        \"chardet\": \">=3.0.2,<5\",\n        \"idna\": \">=2.5,<3\",\n        \"urllib3\": \">=1.21.1,<1.27\"\n      },\n      \"2.31.0\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      },\n      \"2.32.5\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      }\n    },\n    \"urllib3\": {\n      \"1.26.20\": {},\n      \"2.5.0\": {}\n    }\n  },\n  \"roots\": {\n    \"certifi\": \">=2017.4.17\",\n    \"idna\": \">=3.10\",\n    \"requests\": \"==2.32.5\",\n    \"urllib3\": \"<2\"\n  }\n}\n",
+          "merged_sha256": "e5eb2412713efb68f436e4722cff08f30e13d65083fd2c693772e9563a1318d5",
+          "schema": "merge-review/v1"
+        },
+        "status": "changed"
+      }
+    },
+    {
+      "command": "python3 -B shared/merge-dependencies/merge_census.py demo",
+      "exit": 0,
+      "result": {
+        "census": {
+          "base": {
+            "all_components_complete": true,
+            "catalog_sha256": "d451e7372eec8fb6e87276d851420f7747a14f281097ac79ebcf605ae0c6343a",
+            "checked_assignments": 36,
+            "classification": "multiple",
+            "compatible_selections": 12,
+            "components": [
+              {
+                "candidate_assignments": 36,
+                "checked_assignments": 36,
+                "compatible_selections": 12,
+                "count_kind": "exact",
+                "packages": [
+                  "certifi",
+                  "chardet",
+                  "charset-normalizer",
+                  "idna",
+                  "requests",
+                  "urllib3"
+                ],
+                "roots": {
+                  "certifi": ">=2017.4.17",
+                  "idna": "*",
+                  "requests": "==2.31.0",
+                  "urllib3": "<2"
+                },
+                "status": "complete",
+                "witness": {
+                  "certifi": "2025.8.3",
+                  "charset-normalizer": "3.4.3",
+                  "idna": "2.10",
+                  "requests": "2.31.0",
+                  "urllib3": "1.26.20"
+                }
+              }
+            ],
+            "count_kind": "exact",
+            "empty_component_index": null,
+            "ignored_packages": [],
+            "max_assignments": 10000,
+            "method": "independent-component-census-v1",
+            "split_candidate_assignments": 36,
+            "status": "complete",
+            "unsplit_candidate_assignments": 36,
+            "witness": {
+              "certifi": "2025.8.3",
+              "charset-normalizer": "3.4.3",
+              "idna": "2.10",
+              "requests": "2.31.0",
+              "urllib3": "1.26.20"
+            }
+          },
+          "merged": {
+            "all_components_complete": true,
+            "catalog_sha256": "0b240e558e98f7b5731620f596f8b6a2e71f9bac7ce72b325dd8d88ae4a96196",
+            "checked_assignments": 24,
+            "classification": "multiple",
+            "compatible_selections": 8,
+            "components": [
+              {
+                "candidate_assignments": 24,
+                "checked_assignments": 24,
+                "compatible_selections": 8,
+                "count_kind": "exact",
+                "packages": [
+                  "certifi",
+                  "chardet",
+                  "charset-normalizer",
+                  "idna",
+                  "requests",
+                  "urllib3"
+                ],
+                "roots": {
+                  "certifi": ">=2017.4.17",
+                  "idna": ">=3.10",
+                  "requests": "==2.32.5",
+                  "urllib3": "<2"
+                },
+                "status": "complete",
+                "witness": {
+                  "certifi": "2025.8.3",
+                  "charset-normalizer": "3.4.3",
+                  "idna": "3.10",
+                  "requests": "2.32.5",
+                  "urllib3": "1.26.20"
+                }
+              }
+            ],
+            "count_kind": "exact",
+            "empty_component_index": null,
+            "ignored_packages": [],
+            "max_assignments": 10000,
+            "method": "independent-component-census-v1",
+            "split_candidate_assignments": 24,
+            "status": "complete",
+            "unsplit_candidate_assignments": 24,
+            "witness": {
+              "certifi": "2025.8.3",
+              "charset-normalizer": "3.4.3",
+              "idna": "3.10",
+              "requests": "2.32.5",
+              "urllib3": "1.26.20"
+            }
+          },
+          "ours": {
+            "all_components_complete": true,
+            "catalog_sha256": "087ec012325b7c19e3080e29b0c2d7bd0c875c7f4fe4094781d527313e46a4a1",
+            "checked_assignments": 36,
+            "classification": "multiple",
+            "compatible_selections": 12,
+            "components": [
+              {
+                "candidate_assignments": 36,
+                "checked_assignments": 36,
+                "compatible_selections": 12,
+                "count_kind": "exact",
+                "packages": [
+                  "certifi",
+                  "chardet",
+                  "charset-normalizer",
+                  "idna",
+                  "requests",
+                  "urllib3"
+                ],
+                "roots": {
+                  "certifi": ">=2017.4.17",
+                  "idna": "*",
+                  "requests": "==2.32.5",
+                  "urllib3": "<2"
+                },
+                "status": "complete",
+                "witness": {
+                  "certifi": "2025.8.3",
+                  "charset-normalizer": "3.4.3",
+                  "idna": "2.10",
+                  "requests": "2.32.5",
+                  "urllib3": "1.26.20"
+                }
+              }
+            ],
+            "count_kind": "exact",
+            "empty_component_index": null,
+            "ignored_packages": [],
+            "max_assignments": 10000,
+            "method": "independent-component-census-v1",
+            "split_candidate_assignments": 36,
+            "status": "complete",
+            "unsplit_candidate_assignments": 36,
+            "witness": {
+              "certifi": "2025.8.3",
+              "charset-normalizer": "3.4.3",
+              "idna": "2.10",
+              "requests": "2.32.5",
+              "urllib3": "1.26.20"
+            }
+          },
+          "theirs": {
+            "all_components_complete": true,
+            "catalog_sha256": "40f4330564dd41901efb4a8d9c2327bb4ee612a17db360d8781168560cece098",
+            "checked_assignments": 24,
+            "classification": "multiple",
+            "compatible_selections": 8,
+            "components": [
+              {
+                "candidate_assignments": 24,
+                "checked_assignments": 24,
+                "compatible_selections": 8,
+                "count_kind": "exact",
+                "packages": [
+                  "certifi",
+                  "chardet",
+                  "charset-normalizer",
+                  "idna",
+                  "requests",
+                  "urllib3"
+                ],
+                "roots": {
+                  "certifi": ">=2017.4.17",
+                  "idna": ">=3.10",
+                  "requests": "==2.31.0",
+                  "urllib3": "<2"
+                },
+                "status": "complete",
+                "witness": {
+                  "certifi": "2025.8.3",
+                  "charset-normalizer": "3.4.3",
+                  "idna": "3.10",
+                  "requests": "2.31.0",
+                  "urllib3": "1.26.20"
+                }
+              }
+            ],
+            "count_kind": "exact",
+            "empty_component_index": null,
+            "ignored_packages": [],
+            "max_assignments": 10000,
+            "method": "independent-component-census-v1",
+            "split_candidate_assignments": 24,
+            "status": "complete",
+            "unsplit_candidate_assignments": 24,
+            "witness": {
+              "certifi": "2025.8.3",
+              "charset-normalizer": "3.4.3",
+              "idna": "3.10",
+              "requests": "2.31.0",
+              "urllib3": "1.26.20"
+            }
+          }
+        },
+        "count_changes": {
+          "base": -4,
+          "ours": -4,
+          "theirs": 0
+        },
+        "format": "merge-component-census/v1",
+        "limits": [
+          "Counts concern only complete reachable selections in the finite numeric catalog.",
+          "Equal counts do not mean equal selection sets; review the merge separately.",
+          "Each catalog gets a separate assignment budget; a partial zero is not unsatisfiable.",
+          "Catalog bytes, publisher identity, artifacts, platforms and installation are not authenticated."
+        ],
+        "merged_compatible": true,
+        "review": {
+          "clean": true,
+          "conflicts": [],
+          "diffs": {
+            "ours": "--- BASE\n+++ OURS\n@@ -44,7 +44,7 @@\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n     \"idna\": \"*\",\n-    \"requests\": \"==2.31.0\",\n+    \"requests\": \"==2.32.5\",\n     \"urllib3\": \"<2\"\n   }\n }\n",
+            "theirs": "--- BASE\n+++ THEIRS\n@@ -43,7 +43,7 @@\n   },\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n-    \"idna\": \"*\",\n+    \"idna\": \">=3.10\",\n     \"requests\": \"==2.31.0\",\n     \"urllib3\": \"<2\"\n   }\n"
+          },
+          "inputs": {
+            "base": {
+              "bytes": 961,
+              "lines": 50,
+              "sha256": "1d5462c17d9d05372c591431f84d63c5237d2fedeb27187a1c1498bcf3a4edb7"
+            },
+            "ours": {
+              "bytes": 961,
+              "lines": 50,
+              "sha256": "1ed68e5120cd756fb4d8940eebbaab83b98068fb83f5c7a528fb657a1cf6d2df"
+            },
+            "theirs": {
+              "bytes": 966,
+              "lines": 50,
+              "sha256": "0089042156936454a8fbea88400b431d40e3e2ec334c20a058447fcc425f59d5"
+            }
+          },
+          "limits": [
+            "Line-based alignment can be ambiguous on repeated text.",
+            "Clean means no textual conflict, not semantic correctness.",
+            "Hashes identify bytes; they do not authenticate an author."
+          ],
+          "merged": "{\n  \"packages\": {\n    \"certifi\": {\n      \"2025.10.5\": {},\n      \"2025.8.3\": {}\n    },\n    \"chardet\": {\n      \"4.0.0\": {}\n    },\n    \"charset-normalizer\": {\n      \"3.4.3\": {},\n      \"3.4.4\": {}\n    },\n    \"idna\": {\n      \"2.10\": {},\n      \"3.10\": {},\n      \"3.11\": {}\n    },\n    \"requests\": {\n      \"2.25.1\": {\n        \"certifi\": \">=2017.4.17\",\n        \"chardet\": \">=3.0.2,<5\",\n        \"idna\": \">=2.5,<3\",\n        \"urllib3\": \">=1.21.1,<1.27\"\n      },\n      \"2.31.0\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      },\n      \"2.32.5\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      }\n    },\n    \"urllib3\": {\n      \"1.26.20\": {},\n      \"2.5.0\": {}\n    }\n  },\n  \"roots\": {\n    \"certifi\": \">=2017.4.17\",\n    \"idna\": \">=3.10\",\n    \"requests\": \"==2.32.5\",\n    \"urllib3\": \"<2\"\n  }\n}\n",
+          "merged_sha256": "e5eb2412713efb68f436e4722cff08f30e13d65083fd2c693772e9563a1318d5",
+          "schema": "merge-review/v1"
+        },
+        "status": "complete"
+      }
+    },
+    {
+      "command": "python3 -B shared/merge-dependencies/merge_pins.py demo",
+      "exit": 0,
+      "result": {
+        "catalogs": {
+          "base": {
+            "candidate_assignments": 36,
+            "catalog_sha256": "d451e7372eec8fb6e87276d851420f7747a14f281097ac79ebcf605ae0c6343a",
+            "checked_assignments": 4,
+            "compatible_selections_seen": 1,
+            "max_assignments": 10000,
+            "method": "finite-pin-core-v1",
+            "pins": {
+              "certifi": "2025.8.3",
+              "idna": "2.10"
+            },
+            "status": "compatible",
+            "witness": {
+              "certifi": "2025.8.3",
+              "charset-normalizer": "3.4.3",
+              "idna": "2.10",
+              "requests": "2.31.0",
+              "urllib3": "1.26.20"
+            }
+          },
+          "merged": {
+            "candidate_assignments": 24,
+            "catalog_sha256": "0b240e558e98f7b5731620f596f8b6a2e71f9bac7ce72b325dd8d88ae4a96196",
+            "checked_assignments": 24,
+            "compatible_selections_seen": 8,
+            "core": {
+              "idna": "2.10"
+            },
+            "deletion_witnesses": [
+              {
+                "removed_pin": "idna",
+                "selected": {
+                  "certifi": "2025.8.3",
+                  "charset-normalizer": "3.4.3",
+                  "idna": "3.10",
+                  "requests": "2.32.5",
+                  "urllib3": "1.26.20"
+                }
+              }
+            ],
+            "discarded_pins": {
+              "certifi": "2025.8.3"
+            },
+            "max_assignments": 10000,
+            "method": "finite-pin-core-v1",
+            "minimality": "subset-minimal, not necessarily minimum cardinality",
+            "observed_pin_patterns": 2,
+            "pins": {
+              "certifi": "2025.8.3",
+              "idna": "2.10"
+            },
+            "status": "incompatible"
+          },
+          "ours": {
+            "candidate_assignments": 36,
+            "catalog_sha256": "087ec012325b7c19e3080e29b0c2d7bd0c875c7f4fe4094781d527313e46a4a1",
+            "checked_assignments": 4,
+            "compatible_selections_seen": 1,
+            "max_assignments": 10000,
+            "method": "finite-pin-core-v1",
+            "pins": {
+              "certifi": "2025.8.3",
+              "idna": "2.10"
+            },
+            "status": "compatible",
+            "witness": {
+              "certifi": "2025.8.3",
+              "charset-normalizer": "3.4.3",
+              "idna": "2.10",
+              "requests": "2.32.5",
+              "urllib3": "1.26.20"
+            }
+          },
+          "theirs": {
+            "candidate_assignments": 24,
+            "catalog_sha256": "40f4330564dd41901efb4a8d9c2327bb4ee612a17db360d8781168560cece098",
+            "checked_assignments": 24,
+            "compatible_selections_seen": 8,
+            "core": {
+              "idna": "2.10"
+            },
+            "deletion_witnesses": [
+              {
+                "removed_pin": "idna",
+                "selected": {
+                  "certifi": "2025.8.3",
+                  "charset-normalizer": "3.4.3",
+                  "idna": "3.10",
+                  "requests": "2.31.0",
+                  "urllib3": "1.26.20"
+                }
+              }
+            ],
+            "discarded_pins": {
+              "certifi": "2025.8.3"
+            },
+            "max_assignments": 10000,
+            "method": "finite-pin-core-v1",
+            "minimality": "subset-minimal, not necessarily minimum cardinality",
+            "observed_pin_patterns": 2,
+            "pins": {
+              "certifi": "2025.8.3",
+              "idna": "2.10"
+            },
+            "status": "incompatible"
+          }
+        },
+        "demo_note": "Inherited historical Requests catalogs and illustrative exact pins: base and ours admit both pins; theirs and merged require idna >=3.10. The merged original roots remain compatible without the idna 2.10 pin.",
+        "format": "merge-pin-review/v1",
+        "limits": [
+          "Review only: no merge, pin change or installation is applied.",
+          "Pins require presence in the original roots dependency closure; they add no roots.",
+          "A core is subset-minimal in its own catalog, not necessarily smallest.",
+          "Deletion witnesses satisfy the remaining core, not necessarily discarded pins.",
+          "Each catalog has its own assignment budget; incomplete search proves no conflict.",
+          "Metadata compatibility does not establish artifact safety or installability.",
+          "Hashes bind bytes or normalized catalogs, not authorship or trusted publishers."
+        ],
+        "lost_pin_compatibility_from": [
+          "base",
+          "ours"
+        ],
+        "review": {
+          "clean": true,
+          "conflicts": [],
+          "diffs": {
+            "ours": "--- BASE\n+++ OURS\n@@ -44,7 +44,7 @@\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n     \"idna\": \"*\",\n-    \"requests\": \"==2.31.0\",\n+    \"requests\": \"==2.32.5\",\n     \"urllib3\": \"<2\"\n   }\n }\n",
+            "theirs": "--- BASE\n+++ THEIRS\n@@ -43,7 +43,7 @@\n   },\n   \"roots\": {\n     \"certifi\": \">=2017.4.17\",\n-    \"idna\": \"*\",\n+    \"idna\": \">=3.10\",\n     \"requests\": \"==2.31.0\",\n     \"urllib3\": \"<2\"\n   }\n"
+          },
+          "inputs": {
+            "base": {
+              "bytes": 961,
+              "lines": 50,
+              "sha256": "1d5462c17d9d05372c591431f84d63c5237d2fedeb27187a1c1498bcf3a4edb7"
+            },
+            "ours": {
+              "bytes": 961,
+              "lines": 50,
+              "sha256": "1ed68e5120cd756fb4d8940eebbaab83b98068fb83f5c7a528fb657a1cf6d2df"
+            },
+            "theirs": {
+              "bytes": 966,
+              "lines": 50,
+              "sha256": "0089042156936454a8fbea88400b431d40e3e2ec334c20a058447fcc425f59d5"
+            }
+          },
+          "limits": [
+            "Line-based alignment can be ambiguous on repeated text.",
+            "Clean means no textual conflict, not semantic correctness.",
+            "Hashes identify bytes; they do not authenticate an author."
+          ],
+          "merged": "{\n  \"packages\": {\n    \"certifi\": {\n      \"2025.10.5\": {},\n      \"2025.8.3\": {}\n    },\n    \"chardet\": {\n      \"4.0.0\": {}\n    },\n    \"charset-normalizer\": {\n      \"3.4.3\": {},\n      \"3.4.4\": {}\n    },\n    \"idna\": {\n      \"2.10\": {},\n      \"3.10\": {},\n      \"3.11\": {}\n    },\n    \"requests\": {\n      \"2.25.1\": {\n        \"certifi\": \">=2017.4.17\",\n        \"chardet\": \">=3.0.2,<5\",\n        \"idna\": \">=2.5,<3\",\n        \"urllib3\": \">=1.21.1,<1.27\"\n      },\n      \"2.31.0\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      },\n      \"2.32.5\": {\n        \"certifi\": \">=2017.4.17\",\n        \"charset-normalizer\": \"<4,>=2\",\n        \"idna\": \"<4,>=2.5\",\n        \"urllib3\": \"<3,>=1.21.1\"\n      }\n    },\n    \"urllib3\": {\n      \"1.26.20\": {},\n      \"2.5.0\": {}\n    }\n  },\n  \"roots\": {\n    \"certifi\": \">=2017.4.17\",\n    \"idna\": \">=3.10\",\n    \"requests\": \"==2.32.5\",\n    \"urllib3\": \"<2\"\n  }\n}\n",
+          "merged_sha256": "e5eb2412713efb68f436e4722cff08f30e13d65083fd2c693772e9563a1318d5",
+          "schema": "merge-review/v1"
+        },
+        "status": "incompatible"
+      }
+    }
+  ],
+  "new_copied_sources_match": true,
+  "inherited_proof_handoff_frozen_copies_match": true
+}

@@ -1,0 +1,1364 @@
+{
+  "suites": [
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/addition-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n",
+      "tool": "line-1/tools/addition-audit",
+      "tests": 6
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/binding-review -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "......................\n----------------------------------------------------------------------\nRan 22 tests in 0.023s\n\nOK\n",
+      "tool": "line-1/tools/binding-review",
+      "tests": 22
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/candidate-additions -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.009s\n\nOK\n",
+      "tool": "line-1/tools/candidate-additions",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/candidate-export -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.182s\n\nOK\n",
+      "tool": "line-1/tools/candidate-export",
+      "tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s /home/seat19/.identitymd/work/ccb24a36-7a55-4c49-9dab-549d1438f1e5/96ed12da-af5e-4235-8aac-3eb8d88d08e5/test/scratch/gathering41-iuliry4q/line1-tools/candidate-order -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.014s\n\nOK\n",
+      "tool": "line-1/tools/candidate-order",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/conflict-finish -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.172s\n\nOK\n",
+      "tool": "line-1/tools/conflict-finish",
+      "tests": 9
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/deletion-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.008s\n\nOK\n",
+      "tool": "line-1/tools/deletion-audit",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/interface-review -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".....................\n----------------------------------------------------------------------\nRan 21 tests in 0.017s\n\nOK\n",
+      "tool": "line-1/tools/interface-review",
+      "tests": 21
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/json-change-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.090s\n\nOK\n",
+      "tool": "line-1/tools/json-change-audit",
+      "tests": 20
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/merge-receipt -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..................\n----------------------------------------------------------------------\nRan 18 tests in 0.023s\n\nOK\n",
+      "tool": "line-1/tools/merge-receipt",
+      "tests": 18
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/merge-review -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.341s\n\nOK\n",
+      "tool": "line-1/tools/merge-review",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/merge-sanity -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "......................\n----------------------------------------------------------------------\nRan 22 tests in 0.013s\n\nOK\n",
+      "tool": "line-1/tools/merge-sanity",
+      "tests": 22
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/resolution-review -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.543s\n\nOK\n",
+      "tool": "line-1/tools/resolution-review",
+      "tests": 16
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/review-recheck -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.957s\n\nOK\n",
+      "tool": "line-1/tools/review-recheck",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/stage-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.329s\n\nOK\n",
+      "tool": "line-1/tools/stage-audit",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/threeway -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.085s\n\nOK\n",
+      "tool": "line-1/tools/threeway",
+      "tests": 23
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/tree-review -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........................\n----------------------------------------------------------------------\nRan 25 tests in 0.562s\n\nOK\n",
+      "tool": "line-1/tools/tree-review",
+      "tests": 25
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/ancestry-diff -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.360s\n\nOK\n",
+      "tool": "line-2/tools/ancestry-diff",
+      "tests": 10
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/anchored-gate -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "....................\n----------------------------------------------------------------------\nRan 20 tests in 1.704s\n\nOK\n",
+      "tool": "line-2/tools/anchored-gate",
+      "tests": 20
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/balance-slot -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+      "tool": "line-2/tools/balance-slot",
+      "tests": 3
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/code-witness -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.368s\n\nOK\n",
+      "tool": "line-2/tools/code-witness",
+      "tests": 9
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/field-change -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".....................\n----------------------------------------------------------------------\nRan 21 tests in 0.969s\n\nOK\n",
+      "tool": "line-2/tools/field-change",
+      "tests": 21
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/fresh-witness -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.261s\n\nOK\n",
+      "tool": "line-2/tools/fresh-witness",
+      "tests": 12
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/header-anchor -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.264s\n\nOK\n",
+      "tool": "line-2/tools/header-anchor",
+      "tests": 14
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/header-chain -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.665s\n\nOK\n",
+      "tool": "line-2/tools/header-chain",
+      "tests": 14
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/mapping-path -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.541s\n\nOK\n",
+      "tool": "line-2/tools/mapping-path",
+      "tests": 20
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/pool-state -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.211s\n\nOK\n",
+      "tool": "line-2/tools/pool-state",
+      "tests": 9
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/proof-pack -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...............\n----------------------------------------------------------------------\nRan 15 tests in 1.187s\n\nOK\n",
+      "tool": "line-2/tools/proof-pack",
+      "tests": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/proof-prune -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.641s\n\nOK\n",
+      "tool": "line-2/tools/proof-prune",
+      "tests": 8
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/proof-receipt -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.138s\n\nOK\n",
+      "tool": "line-2/tools/proof-receipt",
+      "tests": 5
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/proof-set -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.169s\n\nOK\n",
+      "tool": "line-2/tools/proof-set",
+      "tests": 8
+    },
+    {
+      "command": "python3 -B -m unittest discover -s /home/seat19/.identitymd/work/ccb24a36-7a55-4c49-9dab-549d1438f1e5/96ed12da-af5e-4235-8aac-3eb8d88d08e5/test/scratch/gathering41-iuliry4q/line2-tools/receipt-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.558s\n\nOK\n",
+      "tool": "line-2/tools/receipt-audit",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/receipt-capsule -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..................\n----------------------------------------------------------------------\nRan 18 tests in 0.565s\n\nOK\n",
+      "tool": "line-2/tools/receipt-capsule",
+      "tests": 18
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/request-coverage -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.060s\n\nOK\n",
+      "tool": "line-2/tools/request-coverage",
+      "tests": 8
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/state-diff -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...............\n----------------------------------------------------------------------\nRan 15 tests in 1.490s\n\nOK\n",
+      "tool": "line-2/tools/state-diff",
+      "tests": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/state-gate -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.556s\n\nOK\n",
+      "tool": "line-2/tools/state-gate",
+      "tests": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/state-witness -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 0.308s\n\nOK\n",
+      "tool": "line-2/tools/state-witness",
+      "tests": 30
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-2/tools/storage-fields -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.288s\n\nOK\n",
+      "tool": "line-2/tools/storage-fields",
+      "tests": 16
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/citation-context -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.649s\n\nOK\n",
+      "tool": "line-3/tools/citation-context",
+      "tests": 17
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/citation-ledger -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.455s\n\nOK\n",
+      "tool": "line-3/tools/citation-ledger",
+      "tests": 10
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/citation-reanchor -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.406s\n\nOK\n",
+      "tool": "line-3/tools/citation-reanchor",
+      "tests": 14
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/citation-report -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.345s\n\nOK\n",
+      "tool": "line-3/tools/citation-report",
+      "tests": 9
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/citation-trail -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.254s\n\nOK\n",
+      "tool": "line-3/tools/citation-trail",
+      "tests": 8
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/collection-guide -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.009s\n\nOK\n",
+      "tool": "line-3/tools/collection-guide",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/corpus-change-receipt -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.003s\n\nOK\n",
+      "tool": "line-3/tools/corpus-change-receipt",
+      "tests": 4
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/corpus-freshness -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.040s\n\nOK\n",
+      "tool": "line-3/tools/corpus-freshness",
+      "tests": 10
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/evidence-bundle -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.210s\n\nOK\n",
+      "tool": "line-3/tools/evidence-bundle",
+      "tests": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/evidence-search -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.033s\n\nOK\n",
+      "tool": "line-3/tools/evidence-search",
+      "tests": 12
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/phrase-finder -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.136s\n\nOK\n",
+      "tool": "line-3/tools/phrase-finder",
+      "tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/query-diagnose -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.014s\n\nOK\n",
+      "tool": "line-3/tools/query-diagnose",
+      "tests": 4
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/query-impact -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.186s\n\nOK\n",
+      "tool": "line-3/tools/query-impact",
+      "tests": 16
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/reading-list -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.016s\n\nOK\n",
+      "tool": "line-3/tools/reading-list",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/search-batch -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.191s\n\nOK\n",
+      "tool": "line-3/tools/search-batch",
+      "tests": 5
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/search-compare -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.065s\n\nOK\n",
+      "tool": "line-3/tools/search-compare",
+      "tests": 9
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/search-evaluate -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.033s\n\nOK\n",
+      "tool": "line-3/tools/search-evaluate",
+      "tests": 9
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/search-receipt -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.106s\n\nOK\n",
+      "tool": "line-3/tools/search-receipt",
+      "tests": 16
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/search-replay -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.008s\n\nOK\n",
+      "tool": "line-3/tools/search-replay",
+      "tests": 10
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/catalog-delta -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n",
+      "tool": "line-4/tools/catalog-delta",
+      "tests": 6
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/catalog-health -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n",
+      "tool": "line-4/tools/catalog-health",
+      "tests": 7
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/component-census -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.556s\n\nOK\n",
+      "tool": "line-4/tools/component-census",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/conflict-core -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.725s\n\nOK\n",
+      "tool": "line-4/tools/conflict-core",
+      "tests": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/core-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.105s\n\nOK\n",
+      "tool": "line-4/tools/core-audit",
+      "tests": 10
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/exhaustive-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.235s\n\nOK\n",
+      "tool": "line-4/tools/exhaustive-audit",
+      "tests": 14
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/joint-check -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.120s\n\nOK\n",
+      "tool": "line-4/tools/joint-check",
+      "tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/lock-plan -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.793s\n\nOK\n",
+      "tool": "line-4/tools/lock-plan",
+      "tests": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s /home/seat19/.identitymd/work/ccb24a36-7a55-4c49-9dab-549d1438f1e5/96ed12da-af5e-4235-8aac-3eb8d88d08e5/test/scratch/gathering41-iuliry4q/offline-resolver -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.181s\n\nOK\n",
+      "tool": "line-4/tools/offline-resolver",
+      "tests": 17
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/pin-core -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.111s\n\nOK\n",
+      "tool": "line-4/tools/pin-core",
+      "tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/plan-audit -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.349s\n\nOK\n",
+      "tool": "line-4/tools/plan-audit",
+      "tests": 13
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/release-map -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.049s\n\nOK\n",
+      "tool": "line-4/tools/release-map",
+      "tests": 10
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/root-repair -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.314s\n\nOK\n",
+      "tool": "line-4/tools/root-repair",
+      "tests": 12
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/selection-explain -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.421s\n\nOK\n",
+      "tool": "line-4/tools/selection-explain",
+      "tests": 16
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/solution-census -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.191s\n\nOK\n",
+      "tool": "line-4/tools/solution-census",
+      "tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/solution-equivalence -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.232s\n\nOK\n",
+      "tool": "line-4/tools/solution-equivalence",
+      "tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-4/tools/support-prune -p test_*.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.146s\n\nOK\n",
+      "tool": "line-4/tools/support-prune",
+      "tests": 7
+    }
+  ],
+  "demos": [
+    {
+      "command": "python3 -B line-1/tools/conflict-finish/test_finish.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.193s\n\nOK\n",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/resolution-review/review.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "t.\\n\"\n        }\n      }\n    }\n  ],\n  \"limits\": [\n    \"Reproduction is not approval, author authentication or semantic correctness.\",\n    \"Diffs expose textual changes; they do not prove preservation of intent.\",\n    \"Retain packet and receipt hashes independently of their supplier.\",\n    \"Stable trusted workspace required; no atomic snapshot or race protection.\",\n    \"Bounded UTF-8 trees only; no permissions, binary merges or rename inference.\",\n    \"Read-only; receipt output metadata is never used as a filesystem path.\"\n  ],\n  \"note\": \"In-memory preview, not a verified filesystem receipt.\"\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/proof-pack/pack.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": ",\"address\":\"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\"codeHash\":\"0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d\",\"nativeBalanceWei\":\"0\",\"nonce\":\"0x1\",\"stateRoot\":\"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\"storage\":[{\"exists\":false,\"slot\":\"0x0\",\"value\":\"0x0\"},{\"exists\":false,\"slot\":\"0x1\",\"value\":\"0x0\"}],\"storageRoot\":\"0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8\",\"trust\":\"Proven relative to the supplied state root; consensus, block identity, and finality are not verified.\",\"verified\":true},\"uniqueNodes\":16,\"verified\":true}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/proof-pack/pack.py demo --pool",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "70ca60edee94fd00425d7ca21609acac7ce1293\",\"nativeBalanceWei\":\"57499945682580518811968\",\"nonce\":\"0x1\",\"stateRoot\":\"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\"storage\":[{\"exists\":true,\"slot\":\"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\"value\":\"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"}],\"storageRoot\":\"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\"trust\":\"Proven relative to the supplied state root; consensus, block identity, and finality are not verified.\",\"verified\":true},\"uniqueNodes\":17,\"verified\":true}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/phrase-finder/phrases.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"format\": \"exact-phrase-results/v1\",\n  \"phrase\": \"Zero To One\",\n  \"normalized_phrase\": \"Zero To One\",\n  \"ignore_case\": false,\n  \"indexed_documents\": 3,\n  \"limit\": 10,\n  \"truncated\": false,\n  \"hits\": [\n    {\n      \"path\": \"zto.md\",\n      \"line_start\": 3,\n      \"line_end\": 3,\n      \"citation\": \"zto.md:3-3\",\n      \"sha256\": \"03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009\",\n      \"text\": \"ZTO token name: Zero To One.\",\n      \"source_verified\": true,\n      \"normalized_offset\": 34\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/release-map/release_map.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": ".3\",\n      \"charset-normalizer\": \"3.4.3\",\n      \"idna\": \"3.10\",\n      \"requests\": \"2.32.5\",\n      \"urllib3\": \"1.26.20\"\n    },\n    {\n      \"certifi\": \"2025.8.3\",\n      \"charset-normalizer\": \"3.4.3\",\n      \"idna\": \"3.11\",\n      \"requests\": \"2.32.5\",\n      \"urllib3\": \"1.26.20\"\n    },\n    {\n      \"certifi\": \"2025.8.3\",\n      \"charset-normalizer\": \"3.4.4\",\n      \"idna\": \"3.10\",\n      \"requests\": \"2.32.5\",\n      \"urllib3\": \"1.26.20\"\n    },\n    {\n      \"certifi\": \"2025.10.5\",\n      \"charset-normalizer\": \"3.4.3\",\n      \"idna\": \"3.10\",\n      \"requests\": \"2.32.5\",\n      \"urllib3\": \"1.26.20\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/stage-audit/test_audit.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "",
+      "stderr_tail": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.325s\n\nOK\n",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/ancestry-diff/ancestry_diff.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "ler-supplied tip hash. Authenticate that tip independently; the linked headers alone do not establish consensus, canonicality, finality or execution validity.\",\n    \"verified\": true\n  },\n  \"format\": \"ancestry-diff/1\",\n  \"trust\": \"The caller must authenticate the tip hash, chain, canonicality, execution validity and finality independently. Parent links prove that the first header is an ancestor of the tip, not that either header is canonical. Differences describe only requested state at two endpoints, not intermediate events, transfers, token balances or a current quote.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/reading-list/reading_list.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\n      \"line_end\": 9,\n      \"citation\": \"zto.md:1-9\",\n      \"sha256\": \"03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009\",\n      \"text\": \"# ZTO on Ethereum\\n\\nZTO token name: Zero To One.\\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\\nChain ID: 1 (Ethereum mainnet).\\nToken decimals: 18.\\nTotal supply in smallest token units: 1000000000000000000000000000.\\n\\n## Observation and trust\",\n      \"source_verified\": true,\n      \"query_ranks\": [\n        {\n          \"query\": 1,\n          \"rank\": 1\n        }\n      ],\n      \"reciprocal_rank_score\": 0.0163934426\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/plan-audit/audit_plan.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "gnments\": 27,\n  \"claimed_minimum\": 1,\n  \"input_sha256\": \"ea06c6ca584a5a35d550b3840a68e7c901f9d61138b897e08e894352e3bd7be9\",\n  \"max_assignments\": 10000,\n  \"method\": \"cartesian-minimum-edit-audit-v1\",\n  \"minimum_change_count\": 1,\n  \"possible_packages\": [\n    \"certifi\",\n    \"charset-normalizer\",\n    \"idna\",\n    \"requests\",\n    \"urllib3\"\n  ],\n  \"reason\": \"all Cartesian assignments exhausted\",\n  \"selected\": {\n    \"certifi\": \"2025.8.3\",\n    \"charset-normalizer\": \"3.4.3\",\n    \"idna\": \"3.10\",\n    \"requests\": \"2.32.5\",\n    \"urllib3\": \"1.26.20\"\n  },\n  \"status\": \"verified\",\n  \"witness_change_count\": 1\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/threeway/merge.py --demo --format json",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"schema\": \"threeway/v1\",\n  \"clean\": true,\n  \"merged\": \"Worker handoff\\nInput: verified-source.txt\\nOutput: result.txt\\nReview: required before publishing\\n\",\n  \"conflicts\": []\n}\n",
+      "stderr_tail": "threeway: 0 conflict(s)\n",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/merge-review/review.py --demo clean --format json",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "t\\nSource: verified-source.txt\\nReview: required\\n\",\n  \"diffs\": {\n    \"ours\": \"--- BASE\\n+++ OURS\\n@@ -1,3 +1,3 @@\\n Title: Deployment checklist\\n-Source: draft.txt\\n+Source: verified-source.txt\\n Review: optional\\n\",\n    \"theirs\": \"--- BASE\\n+++ THEIRS\\n@@ -1,3 +1,3 @@\\n Title: Deployment checklist\\n Source: draft.txt\\n-Review: optional\\n+Review: required\\n\"\n  },\n  \"conflicts\": [],\n  \"limits\": [\n    \"Line-based alignment can be ambiguous on repeated text.\",\n    \"Clean means no textual conflict, not semantic correctness.\",\n    \"Hashes identify bytes; they do not authenticate an author.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/tree-review/tree_review.py --demo clean --format json",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": ",\n      \"review\": null,\n      \"diffs\": {\n        \"ours\": \"\",\n        \"theirs\": \"--- BASE\\n+++ THEIRS\\n@@ -1 +0,0 @@\\n-superseded note\\n\"\n      }\n    }\n  ],\n  \"limits\": [\n    \"Review only: no files are written or deleted.\",\n    \"Empty directories, permissions and renames are not merged.\",\n    \"Any file/directory type collision is conservatively a conflict.\",\n    \"Line alignment can be ambiguous; clean is not semantic correctness.\",\n    \"Hashes identify bytes, not authors; reads require stable trusted trees.\",\n    \"No filesystem snapshot or protection against concurrent path replacement.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/review-recheck/recheck.py --demo clean",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"schema\": \"review-recheck/v1\",\n  \"matches\": true,\n  \"changed_inputs\": [],\n  \"review_matches\": true,\n  \"current_clean\": true,\n  \"status\": \"matches-clean\",\n  \"limits\": [\n    \"Matching verifies reproducibility, not author identity or approval.\",\n    \"A matching conflicted review still requires conflict resolution.\",\n    \"A clean textual merge can be semantically wrong.\",\n    \"Reads require stable trusted workspace trees; no atomic snapshot.\",\n    \"Requires the same tree-review implementation and limits.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/candidate-export/export.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"schema\": \"candidate-export-demo/v1\",\n  \"clean\": true,\n  \"candidates\": {\n    \"guide.md\": \"Source: verified-source.txt\\nReview: required\\n\",\n    \"notes.txt\": \"Keep the source receipt.\\n\"\n  },\n  \"omitted_deletions\": [\n    \"obsolete.txt\"\n  ],\n  \"note\": \"Preview only; no files written. Run tests for filesystem export.\"\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/state-witness/witness.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "te; bundled anchor is illustrative, not independently authenticated.\",\n  \"nativeBalanceWei\": \"0\",\n  \"nonce\": \"0x1\",\n  \"stateRoot\": \"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n  \"storage\": [\n    {\n      \"exists\": false,\n      \"slot\": \"0x0\",\n      \"value\": \"0x0\"\n    },\n    {\n      \"exists\": false,\n      \"slot\": \"0x1\",\n      \"value\": \"0x0\"\n    }\n  ],\n  \"storageRoot\": \"0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8\",\n  \"trust\": \"Proven relative to the supplied state root; consensus, block identity, and finality are not verified.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/header-anchor/anchor.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "92af9f539561e626d512\",\n    \"storage\": [\n      {\n        \"exists\": true,\n        \"slot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n        \"value\": \"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n      }\n    ],\n    \"storageRoot\": \"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\n    \"verified\": true\n  },\n  \"trust\": \"Header and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/code-witness/code_witness.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " \"0x0\"\n      }\n    ],\n    \"storageRoot\": \"0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8\",\n    \"verified\": true\n  },\n  \"trust\": \"Header and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked. Supplied bytes match the account code commitment only. Source, ABI, storage layout, proxy/delegation targets and execution behavior are not verified. Empty bytes do not establish that an address has no protocol-defined behavior.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/proof-set/proof_set.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "7c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n    \"timestamp\": \"0x6ad36f57\"\n  },\n  \"demo\": \"Historical RPC observation; the fixed demonstration hash is not a consensus-authenticated checkpoint.\",\n  \"manifestSha256\": \"a4e9d3fb56c90bf1202ac3d53b8ce7c557febe06d88581a9430a2f6a59f14e8f\",\n  \"trust\": \"Every listed account and slot is proven against one header matching the supplied hash. The caller must authenticate that hash, chain, canonicality and finality independently. Code checks establish stored byte identity only, not source, ABI, layout, proxy targets or behavior.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/pool-state/pool_state.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "d2e3de08a90\",\n    \"slot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n    \"tickSpacing\": 60\n  },\n  \"provenWord\": \"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\",\n  \"trust\": \"Storage is proven relative to the supplied block hash. Authenticate its Ethereum chain, canonicality and finality independently. Pool ID/currency binding and deployed v4 layout are assignment assumptions, not proven by slot0. Ratios use raw units without decimals; this historical spot state is not a swap quote, liquidity proof, TWAP or manipulation-safe oracle.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/header-chain/header_chain.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " ],\n    \"storageRoot\": \"0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8\",\n    \"verified\": true\n  },\n  \"trust\": \"State is proven at the oldest supplied header, linked by parent hashes to the explicitly supplied later checkpoint. Authenticate the checkpoint, its chain, canonicality, consensus/execution validity and finality independently. This checks header hashes, consecutive numbers and increasing timestamps, not consensus rules. It does not authenticate newer headers from an older checkpoint, prove current state, or establish token storage semantics.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/header-chain/header_chain.py demo --pool",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " ],\n    \"storageRoot\": \"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\n    \"verified\": true\n  },\n  \"trust\": \"State is proven at the oldest supplied header, linked by parent hashes to the explicitly supplied later checkpoint. Authenticate the checkpoint, its chain, canonicality, consensus/execution validity and finality independently. This checks header hashes, consecutive numbers and increasing timestamps, not consensus rules. It does not authenticate newer headers from an older checkpoint, prove current state, or establish token storage semantics.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/state-diff/state_diff.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "lanceWei\",\n      \"storageRoot\"\n    ],\n    \"changedRequestedSlots\": [\n      \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\"\n    ],\n    \"requestedSlotsChanged\": true,\n    \"storageCommitmentChanged\": true\n  },\n  \"trust\": \"Both supplied block hashes must be independently authenticated for the same chain, canonicality, execution validity and finality. Header ordering is checked but ancestry and consensus are not. Bundled metadata and RPC labels are not trust anchors. Deltas are signed endpoint arithmetic, not transfers, events, profit or a current quote.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/state-diff/state_diff.py demo --zto",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\"0x1\"\n    }\n  ],\n  \"summary\": {\n    \"accountChanged\": true,\n    \"changedAccountFields\": [\n      \"storageRoot\"\n    ],\n    \"changedRequestedSlots\": [],\n    \"requestedSlotsChanged\": false,\n    \"storageCommitmentChanged\": true\n  },\n  \"trust\": \"Both supplied block hashes must be independently authenticated for the same chain, canonicality, execution validity and finality. Header ordering is checked but ancestry and consensus are not. Bundled metadata and RPC labels are not trust anchors. Deltas are signed endpoint arithmetic, not transfers, events, profit or a current quote.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/evidence-search/search.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "2015ade42e00f30070b9a434008b\",\n      \"source_verified\": true,\n      \"score\": 0.55731351,\n      \"matched_terms\": [\n        \"token\",\n        \"zto\"\n      ],\n      \"text\": \"## Source boundary\\n\\nThe pool identifiers and parameters above come from the assignment's public\\nZTO reference. They were not independently recovered or verified on-chain here.\\nToken metadata in zto.md and imd.md was separately observed through read-only\\nEthereum RPC calls; the companion zto-mainnet.json records those responses.\\nThis document does not contain a live price, a quote, or an unsigned transaction.\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/corpus-freshness/freshness.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "34008b\",\n        \"source_verified\": true,\n        \"score\": 0.55731351,\n        \"matched_terms\": [\n          \"token\",\n          \"zto\"\n        ],\n        \"text\": \"## Source boundary\\n\\nThe pool identifiers and parameters above come from the assignment's public\\nZTO reference. They were not independently recovered or verified on-chain here.\\nToken metadata in zto.md and imd.md was separately observed through read-only\\nEthereum RPC calls; the companion zto-mainnet.json records those responses.\\nThis document does not contain a live price, a quote, or an unsigned transaction.\"\n      }\n    ]\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/search-receipt/receipt.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "}\n      ]\n    }\n  },\n  \"verification\": {\n    \"format\": \"evidence-search-receipt-check/v1\",\n    \"verified\": true,\n    \"receipt_sha256\": \"eb68004d99b400202f289750fd24909060cd440a5d69996585ce3c298683f3fb\",\n    \"expected_sha256\": \"eb68004d99b400202f289750fd24909060cd440a5d69996585ce3c298683f3fb\",\n    \"hash_matches\": true,\n    \"sources\": {\n      \"fresh\": true,\n      \"added\": [],\n      \"removed\": [],\n      \"changed\": []\n    },\n    \"result_matches\": true,\n    \"reason\": \"verified\"\n  },\n  \"note\": \"Historical bundled ZTO evidence; verification does not establish factual truth or current chain state.\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/evidence-bundle/bundle.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "erified\": true,\n        \"score\": 1.98479013,\n        \"matched_terms\": [\n          \"decimals\",\n          \"token\",\n          \"zto\"\n        ],\n        \"text\": \"# ZTO on Ethereum\\n\\nZTO token name: Zero To One.\\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\\nChain ID: 1 (Ethereum mainnet).\\nToken decimals: 18.\\nTotal supply in smallest token units: 1000000000000000000000000000.\\n\\n## Observation and trust\"\n      }\n    ]\n  },\n  \"note\": \"In-memory pack/check; no files written. Unpack reproduces the receipt. Historical ZTO evidence, not current chain state or truth authentication.\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/corpus-change-receipt/receipt.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"format\": \"evidence-corpus-change-receipt/v1\",\n  \"before_documents\": 3,\n  \"after_documents\": 4,\n  \"added\": [\n    {\n      \"path\": \"handoff.md\",\n      \"sha256\": \"b4581ea4ff0f19133629cfd91be31acd14eb0dd96ea89af3a5c2314bec1f2f9c\",\n      \"citation\": \"handoff.md:1-1\"\n    }\n  ],\n  \"removed\": [],\n  \"changed\": [],\n  \"receipt_sha256\": \"dc0579ff1c9e04b2d5662179fd0f5d4e50a03560babeda38ebcef07dd822ee8a\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/query-impact/impact.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\"pool\",\n          \"spacing\",\n          \"tick\",\n          \"zto\"\n        ],\n        \"text\": \"# ZTO and IMD pool reference\\n\\nZTO is paired with IMD in a Uniswap v4 pool on Ethereum.\\nPoolManager: 0x000000000004444c5dc75cB358380D2e3dE08A90.\\nPool ID: 0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592.\\nPool fee: 12500. Tick spacing: 60.\\nZTO contract: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\\nIMD contract: 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7.\\n\\n## Source boundary\"\n      }\n    ]\n  },\n  \"report_sha256\": \"0754d25d89be10904c35cca8420f0683a737d720fcbe76c59e8b324dc1a940bd\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/collection-guide/guide.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "h\": \"zto.md\",\n        \"line_start\": 1,\n        \"line_end\": 9,\n        \"citation\": \"zto.md:1-9\",\n        \"sha256\": \"03a74a78fa9fd52080b1b21385dafb47dc07c2422ff2e6ff327cbf3d94da8009\",\n        \"source_verified\": true,\n        \"score\": 1.80401929,\n        \"matched_terms\": [\n          \"one\"\n        ],\n        \"text\": \"# ZTO on Ethereum\\n\\nZTO token name: Zero To One.\\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\\nChain ID: 1 (Ethereum mainnet).\\nToken decimals: 18.\\nTotal supply in smallest token units: 1000000000000000000000000000.\\n\\n## Observation and trust\"\n      }\n    ]\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/offline-resolver/resolve.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "onstraint\": \"<4,>=2\",\n      \"from\": \"requests@2.32.5\",\n      \"to\": \"charset-normalizer@3.4.4\"\n    },\n    {\n      \"constraint\": \"<4,>=2.5\",\n      \"from\": \"requests@2.32.5\",\n      \"to\": \"idna@3.11\"\n    },\n    {\n      \"constraint\": \"<3,>=1.21.1\",\n      \"from\": \"requests@2.32.5\",\n      \"to\": \"urllib3@1.26.20\"\n    }\n  ],\n  \"max_steps\": 10000,\n  \"roots\": {\n    \"requests\": \"==2.32.5\",\n    \"urllib3\": \"<2\"\n  },\n  \"selected\": {\n    \"certifi\": \"2025.10.5\",\n    \"charset-normalizer\": \"3.4.4\",\n    \"idna\": \"3.11\",\n    \"requests\": \"2.32.5\",\n    \"urllib3\": \"1.26.20\"\n  },\n  \"status\": \"resolved\",\n  \"steps\": 6\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-4/tools/conflict-core/core.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "rllib3\": \"<2\"\n    },\n    \"schema\": 1,\n    \"search\": {\n      \"max_steps\": 10000,\n      \"solver_calls\": 5,\n      \"steps\": 15\n    },\n    \"status\": \"unsatisfiable\",\n    \"trials\": [\n      {\n        \"removed_root\": \"certifi\",\n        \"status\": \"unsatisfiable\",\n        \"steps\": 2\n      },\n      {\n        \"removed_root\": \"idna\",\n        \"status\": \"resolved\",\n        \"steps\": 6\n      },\n      {\n        \"removed_root\": \"requests\",\n        \"status\": \"resolved\",\n        \"steps\": 3\n      },\n      {\n        \"removed_root\": \"urllib3\",\n        \"status\": \"unsatisfiable\",\n        \"steps\": 2\n      }\n    ]\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-4/tools/exhaustive-audit/audit.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"demonstration\": {\n    \"candidate_assignments\": 24,\n    \"checked_assignments\": 24,\n    \"max_assignments\": 10000,\n    \"method\": \"exhaustive-cartesian-v1\",\n    \"possible_packages\": [\n      \"certifi\",\n      \"chardet\",\n      \"charset-normalizer\",\n      \"idna\",\n      \"requests\",\n      \"urllib3\"\n    ],\n    \"status\": \"unsatisfiable\"\n  },\n  \"status\": \"verified\"\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-4/tools/root-repair/repair.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"catalog_sha256\": \"a6e92f561ad112d9f4f311ea4e6100d7694254c6c7a77df3605109c67d3339d9\",\n  \"fully_rejected_removal_sizes\": [\n    0\n  ],\n  \"max_steps\": 10000,\n  \"max_trials\": 10000,\n  \"method\": \"minimum-root-removal-v1\",\n  \"minimum_removed_count\": 1,\n  \"remaining_roots\": {\n    \"certifi\": \">=2017.4.17\",\n    \"requests\": \"==2.25.1\",\n    \"urllib3\": \"<2\"\n  },\n  \"removed\": {\n    \"idna\": \">=3.10\"\n  },\n  \"selected\": {\n    \"certifi\": \"2025.10.5\",\n    \"chardet\": \"4.0.0\",\n    \"idna\": \"2.10\",\n    \"requests\": \"2.25.1\",\n    \"urllib3\": \"1.26.20\"\n  },\n  \"status\": \"repaired\",\n  \"steps\": 10,\n  \"trials\": 3\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-4/tools/lock-plan/plan.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": ": \"1.26.20\"\n  },\n  \"change_count\": 1,\n  \"changes\": [\n    {\n      \"after\": \"2.32.5\",\n      \"before\": \"2.31.0\",\n      \"operation\": \"change\",\n      \"package\": \"requests\"\n    }\n  ],\n  \"input_sha256\": \"ea06c6ca584a5a35d550b3840a68e7c901f9d61138b897e08e894352e3bd7be9\",\n  \"max_steps\": 10000,\n  \"method\": \"minimum-package-edits-v1\",\n  \"minimum_change_count\": 1,\n  \"optimality\": \"all reachable branches exhausted\",\n  \"selected\": {\n    \"certifi\": \"2025.8.3\",\n    \"charset-normalizer\": \"3.4.3\",\n    \"idna\": \"3.10\",\n    \"requests\": \"2.32.5\",\n    \"urllib3\": \"1.26.20\"\n  },\n  \"status\": \"optimal\",\n  \"steps\": 17\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/merge-sanity/sanity.py --demo",
+      "exit": 1,
+      "expected_exit": 1,
+      "stdout_tail": "assing is neither semantic correctness nor approval.\",\n    \"Python is compiled but never executed, imported, or used to resolve imports.\",\n    \"Python validity depends on the interpreter running this tool.\",\n    \"JSON requires unique keys, finite numeric literals and depth <=128; no schema is checked.\",\n    \"Marker-like lines can be intentional prose; inspect every finding.\",\n    \"Other file formats receive only the conflict-marker check.\",\n    \"Bounded UTF-8 stable workspace trees; no atomic snapshots or race protection.\",\n    \"Hashes identify bytes, not authors. No files are written.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/merge-sanity/trial.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "ecuted, imported, or used to resolve imports.\",\n      \"Python validity depends on the interpreter running this tool.\",\n      \"JSON requires unique keys, finite numeric literals and depth <=128; no schema is checked.\",\n      \"Marker-like lines can be intentional prose; inspect every finding.\",\n      \"Other file formats receive only the conflict-marker check.\",\n      \"Bounded UTF-8 stable workspace trees; no atomic snapshots or race protection.\",\n      \"Hashes identify bytes, not authors. No files are written.\"\n    ]\n  },\n  \"authority\": \"Local observations only; no independent certification.\"\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/state-gate/gate.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.value\",\n      \"passed\": true\n    }\n  ],\n  \"demo\": \"Historical RPC observation; the demo root is not a consensus-authenticated checkpoint.\",\n  \"format\": \"state-gate-result/1\",\n  \"policySha256\": \"9f9f773cc0c683693b10d5b9a084910eb036ea6de67a73a1f4b50d0e280d2d10\",\n  \"stateRoot\": \"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n  \"trust\": \"Authenticate the root and policy independently. This checks only sampled state; it does not verify consensus, finality, storage layout, execution or future state.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/state-gate/gate.py demo --reject",
+      "exit": 3,
+      "expected_exit": 3,
+      "stdout_tail": "0121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b.value\",\n      \"passed\": false\n    }\n  ],\n  \"demo\": \"Historical RPC observation; the demo root is not a consensus-authenticated checkpoint.\",\n  \"format\": \"state-gate-result/1\",\n  \"policySha256\": \"bcb10f98da03f5a1da532b045f98c9d5caf9c2d48fba148e7ce206a6d56c2112\",\n  \"stateRoot\": \"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n  \"trust\": \"Authenticate the root and policy independently. This checks only sampled state; it does not verify consensus, finality, storage layout, execution or future state.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-reanchor/reanchor.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "ique_current_citation\": {\n      \"path\": \"zto.md\",\n      \"line_start\": 5,\n      \"line_end\": 8,\n      \"citation\": \"zto.md:5-8\",\n      \"sha256\": \"3d61376af5f08a3ca99ba1befb8b280f193a0f529f905648d97dd73e4addd25e\"\n    },\n    \"match_count\": 1,\n    \"candidates\": [\n      {\n        \"path\": \"zto.md\",\n        \"line_start\": 5,\n        \"line_end\": 8,\n        \"citation\": \"zto.md:5-8\",\n        \"sha256\": \"3d61376af5f08a3ca99ba1befb8b280f193a0f529f905648d97dd73e4addd25e\"\n      }\n    ],\n    \"candidates_truncated\": false,\n    \"scope\": \"all exact line occurrences in same path\",\n    \"source_verified\": false\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/selection-explain/explain.py demo --why idna",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " from roots are traced. A path may include failed constraints; it describes the supplied selection. Unexpanded nodes have missing or unknown releases; no dependencies are inferred.\",\n  \"selected\": {\n    \"certifi\": \"2025.8.3\",\n    \"charset-normalizer\": \"3.4.3\",\n    \"idna\": \"3.10\",\n    \"requests\": \"2.32.5\",\n    \"urllib3\": \"1.26.20\"\n  },\n  \"status\": \"valid\",\n  \"unexpanded\": [],\n  \"unknown_selected\": [],\n  \"unreachable_selected\": [],\n  \"violations\": [],\n  \"why\": {\n    \"all_path_requirements_satisfied\": true,\n    \"package\": \"idna\",\n    \"path\": [\n      0,\n      4\n    ],\n    \"status\": \"traced\"\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/interface-review/interfaces.py --demo",
+      "exit": 1,
+      "expected_exit": 1,
+      "stdout_tail": "re inventoried.\",\n    \"Conditional definitions and duplicate names make a file incomplete; local functions are ignored.\",\n    \"No execution, import resolution, call-site checking, inheritance or runtime decorator analysis.\",\n    \"Class bases, assignments, aliases, exports, attributes and function bodies are not interfaces here.\",\n    \"Expression hashes describe AST syntax, not values; Python grammar depends on this interpreter.\",\n    \"Bounded stable UTF-8 workspace trees; no atomic snapshot or race protection.\",\n    \"Hashes identify bytes, not authors or approval. No files are written.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/interface-review/trial.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "11ad6efa89edca75b1cbe8623b0e\",\n    \"test_merge.py\": \"e30ac1fb3a648708aff51d3e74d0203bceec726d95edbecf716f785c5b7eabe4\",\n    \"README.md\": \"99eac1d91323b3b51e57eebbc4338bb4715519bec5d51fa546b5e56acd87e003\",\n    \"examples/base.txt\": \"b1968dd85fec4bc0786e41f49d6b1a6e91f57cd91384889ce54f516950e7c9f6\",\n    \"examples/ours.txt\": \"232549fb5f6a02eb45e63a23838b128101683751ffd90027a36a1de7634eabfb\",\n    \"examples/theirs.txt\": \"6a65c2b8d1538edc0f0fc66e523fe918f9fcf32e1e03ecc8194427383c5fd353\"\n  },\n  \"note\": \"Independent illustrative signature edits on copies of real merger files; no candidate executed.\"\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/fresh-witness/fresh_witness.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "eader and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked.\",\n    \"verified\": true\n  },\n  \"format\": \"fresh-witness/1\",\n  \"headerUnixSeconds\": 1792241495,\n  \"maxAgeSeconds\": 60,\n  \"reason\": \"within-window\",\n  \"trust\": \"Authenticate the block hash and reference time independently. Age measures the authenticated header timestamp, not proof capture time. This does not prove consensus, finality, current state, or that a newer block exists.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/fresh-witness/fresh_witness.py demo --reject",
+      "exit": 3,
+      "expected_exit": 3,
+      "stdout_tail": "Header and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked.\",\n    \"verified\": true\n  },\n  \"format\": \"fresh-witness/1\",\n  \"headerUnixSeconds\": 1792241495,\n  \"maxAgeSeconds\": 60,\n  \"reason\": \"stale-header\",\n  \"trust\": \"Authenticate the block hash and reference time independently. Age measures the authenticated header timestamp, not proof capture time. This does not prove consensus, finality, current state, or that a newer block exists.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-context/context.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "ber\": 14,\n          \"selected\": false,\n          \"text\": \"This is a recorded RPC observation, not an independent proof or a current quote.\"\n        },\n        {\n          \"number\": 15,\n          \"selected\": false,\n          \"text\": \"Use exact integer token units for accounting; search results do not authorize a payment.\"\n        }\n      ]\n    },\n    \"section_headings\": [\n      {\n        \"level\": 1,\n        \"line\": 1,\n        \"text\": \"# ZTO on Ethereum\",\n        \"citation\": \"zto.md:1-1\"\n      }\n    ],\n    \"heading_scope\": \"ATX Markdown headings outside fenced code at the selection start\"\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-1/tools/binding-review/bindings.py --demo",
+      "exit": 1,
+      "expected_exit": 1,
+      "stdout_tail": "onal/loop/try/with/match statements, wildcard imports, deletes, augmented assignments and assignment expressions make an inventory incomplete.\",\n    \"Attribute/subscript writes and annotation-only declarations do not bind names here.\",\n    \"No execution, import resolution, control-flow, decorator, inheritance or alias analysis.\",\n    \"AST hashes identify syntax, not values or authors. Line numbers do not affect comparison.\",\n    \"An inherited collision is still reported; branch presence is not approval.\",\n    \"Bounded stable UTF-8 workspace trees; no atomic snapshot or race protection.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/binding-review/trial.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\"inventory_problems\": {\n    \"base\": [\n      {\n        \"kind\": \"unsupported-statement:If\",\n        \"scope\": [],\n        \"line\": 135\n      }\n    ],\n    \"ours\": [\n      {\n        \"kind\": \"unsupported-statement:If\",\n        \"scope\": [],\n        \"line\": 135\n      }\n    ],\n    \"theirs\": [\n      {\n        \"kind\": \"unsupported-statement:If\",\n        \"scope\": [],\n        \"line\": 135\n      }\n    ],\n    \"candidate\": [\n      {\n        \"kind\": \"unsupported-statement:If\",\n        \"scope\": [],\n        \"line\": 135\n      }\n    ]\n  },\n  \"source_and_trial_inputs_unchanged\": true,\n  \"candidate_executed\": false\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/anchored-gate/anchored_gate.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "ot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n        \"value\": \"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n      }\n    ],\n    \"storageRoot\": \"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\n    \"verified\": true\n  },\n  \"trust\": \"Authenticate the block hash, chain, policy fingerprint and reference time independently. The policy selects the exact account and slots. This proves only sampled state and header timestamp age, not consensus, finality, storage layout, present freshness, execution, or future state.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/anchored-gate/anchored_gate.py demo --reject both",
+      "exit": 3,
+      "expected_exit": 3,
+      "stdout_tail": "ot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n        \"value\": \"0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n      }\n    ],\n    \"storageRoot\": \"0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\",\n    \"verified\": true\n  },\n  \"trust\": \"Authenticate the block hash, chain, policy fingerprint and reference time independently. The policy selects the exact account and slots. This proves only sampled state and header timestamp age, not consensus, finality, storage layout, present freshness, execution, or future state.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-ledger/ledger.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "   \"citation\": \"pool.md:1-10\",\n            \"sha256\": \"c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b\"\n          },\n          \"match_count\": 1,\n          \"candidates\": [\n            {\n              \"path\": \"pool.md\",\n              \"line_start\": 1,\n              \"line_end\": 10,\n              \"citation\": \"pool.md:1-10\",\n              \"sha256\": \"c0550528c6de8499660048c0ee32a7770fab2015ade42e00f30070b9a434008b\"\n            }\n          ],\n          \"candidates_truncated\": false,\n          \"scope\": \"saved line range\",\n          \"source_verified\": false\n        }\n      }\n    ]\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/core-audit/check_core.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "7d3339d9\",\n  \"claim\": \"unsatisfiable\",\n  \"core\": {\n    \"idna\": \">=3.10\",\n    \"requests\": \"==2.25.1\"\n  },\n  \"exhaustion\": {\n    \"candidate_assignments\": 108,\n    \"checked_assignments\": 108,\n    \"max_assignments\": 10000,\n    \"method\": \"exhaustive-cartesian-v1\",\n    \"possible_packages\": [\n      \"certifi\",\n      \"chardet\",\n      \"charset-normalizer\",\n      \"idna\",\n      \"requests\",\n      \"urllib3\"\n    ],\n    \"status\": \"unsatisfiable\"\n  },\n  \"irreducible_verified\": true,\n  \"method\": \"cartesian-core-audit-v1\",\n  \"minimality\": \"irreducible\",\n  \"removal_witnesses_checked\": 2,\n  \"status\": \"verified\"\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/addition-audit/addition_audit.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "d\",\n    \"missing\": [],\n    \"candidate_sha256\": \"584b2faabc6e8d544ee2e477d50b0ce399788179a22f7131c1815747dcc105b8\"\n  },\n  \"omitted_contribution\": {\n    \"path\": \"notes.txt\",\n    \"merge_status\": \"clean\",\n    \"status\": \"review\",\n    \"missing\": [\n      {\n        \"line_sha256\": \"f98a27ba60cb24dd9b58416d434d1fa055c7f4866566d3ec504d9b9ca65b11c0\",\n        \"required_occurrences\": 1,\n        \"candidate_occurrences\": 0,\n        \"from\": [\n          \"theirs\"\n        ]\n      }\n    ],\n    \"candidate_sha256\": \"8f01e5d74986a129aa95c4ceb222e57a399b4eb386a98bc8afdad2a53ce9c826\"\n  },\n  \"omission_detected\": true\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/balance-slot/balance_slot.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "pping slot.\",\n  \"format\": \"erc20-balance-slot/1\",\n  \"formula\": \"keccak256(leftPad32(holder) || uint256(mappingSlot))\",\n  \"holder\": \"0x000000000004444c5dc75cb358380d2e3de08a90\",\n  \"mappingSlot\": \"0x0\",\n  \"note\": \"Derivation only; no proof, storage layout or token balance was checked.\",\n  \"preimage\": \"0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a900000000000000000000000000000000000000000000000000000000000000000\",\n  \"storageSlot\": \"0x11fd237061433ba9f221f703bed587e7636b11fbe3815abba27443968931d654\",\n  \"token\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n  \"verified\": false\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/storage-fields/storage_fields.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n      \"storageExists\": true,\n      \"unusedBits\": \"0x0\",\n      \"word\": \"0x0000000030d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n    }\n  ],\n  \"stateRoot\": \"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n  \"trust\": \"Raw words are proven against the supplied root. Authenticate the root independently. Field names, offsets, signedness and meaning are caller assumptions, not facts established by a proof. No price, balance, consensus, finality or current-state claim is made.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/query-diagnose/diagnose.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "   ],\n          \"text\": \"# ZTO and IMD pool reference\\n\\nZTO is paired with IMD in a Uniswap v4 pool on Ethereum.\\nPoolManager: 0x000000000004444c5dc75cB358380D2e3dE08A90.\\nPool ID: 0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592.\\nPool fee: 12500. Tick spacing: 60.\\nZTO contract: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\\nIMD contract: 0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7.\\n\\n## Source boundary\"\n        }\n      ]\n    }\n  ],\n  \"interpretation\": \"Omitting a term reveals lexical candidates only; it does not establish an answer or justify silently dropping the term.\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-report/report.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"format\": \"citation-review/v1\",\n  \"all_unchanged\": true,\n  \"entry_count\": 2,\n  \"review_count\": 0,\n  \"entries\": [\n    {\n      \"id\": \"zto\",\n      \"status\": \"unchanged\",\n      \"needs_review\": false,\n      \"source\": \"zto.md\"\n    },\n    {\n      \"id\": \"pool\",\n      \"status\": \"unchanged\",\n      \"needs_review\": false,\n      \"source\": \"pool.md\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/joint-check/joint.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\": 216,\n      \"catalog_sha256\": \"618c866ea4556e9df209a514d6e91894fd5ee71b47c7b700a65db9fa93d70f77\",\n      \"checked_assignments\": 216,\n      \"compatible_selections_seen\": 26,\n      \"max_assignments\": 10000,\n      \"method\": \"finite-joint-check-v1\",\n      \"pins\": {\n        \"idna\": \"3.10\",\n        \"requests\": \"2.25.1\"\n      },\n      \"reason\": \"all original-root reachable selections exhausted without all pins\",\n      \"status\": \"incompatible\"\n    }\n  ],\n  \"demonstration\": \"individual viability does not imply joint viability\",\n  \"demonstration_roots\": {\n    \"requests\": \"*\",\n    \"urllib3\": \"<2\"\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-4/tools/catalog-delta/delta.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " [\n        \"2.25.1\"\n      ],\n      \"releases_removed\": []\n    }\n  ],\n  \"root_changes\": [\n    {\n      \"after\": \">=2017.4.17\",\n      \"before\": null,\n      \"package\": \"certifi\"\n    },\n    {\n      \"after\": \">=3.10\",\n      \"before\": null,\n      \"package\": \"idna\"\n    },\n    {\n      \"after\": \"==2.25.1\",\n      \"before\": \"==2.32.5\",\n      \"package\": \"requests\"\n    }\n  ],\n  \"scope\": \"Exact roots, release labels and dependency constraints in two finite catalogs are compared. No resolution, compatibility, registry freshness, artifact availability or publisher trust is inferred.\",\n  \"status\": \"compared\"\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/deletion-audit/deletion_audit.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "       \"removed_by\": [\n          \"ours\"\n        ]\n      }\n    ]\n  },\n  \"limits\": [\n    \"Exact per-file line counts only; a flag requests review, not automatic removal.\",\n    \"Moves, renames, replacements and intentional reintroductions need human interpretation.\",\n    \"No check of additions, remaining conflicts, syntax, meaning, or approval.\",\n    \"File/directory collisions and descendants are blocked conservatively.\",\n    \"Stable bounded UTF-8 trees required; no atomic snapshot or path race protection.\",\n    \"No merge engine is run; only Tree Review snapshots and manifests are reused.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/proof-receipt/receipt.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "cimal\": \"0\"\n        },\n        {\n          \"name\": \"protocolFee1To0\",\n          \"rawBits\": \"0x0\",\n          \"valueDecimal\": \"0\"\n        },\n        {\n          \"name\": \"lpFee\",\n          \"rawBits\": \"0x30d4\",\n          \"valueDecimal\": \"12500\"\n        }\n      ],\n      \"slot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n      \"storageExists\": true,\n      \"unusedBits\": \"0x0\",\n      \"word\": \"0x0000000030d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\"\n    }\n  ],\n  \"stateRoot\": \"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-trail/demo.py",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\n            \"text\": \"The companion zto-mainnet.json contains the raw eth_call results and retrieval time.\"\n          },\n          {\n            \"number\": 14,\n            \"selected\": false,\n            \"text\": \"This is a recorded RPC observation, not an independent proof or a current quote.\"\n          }\n        ]\n      },\n      \"section_headings\": [\n        {\n          \"level\": 1,\n          \"line\": 1,\n          \"text\": \"# ZTO on Ethereum\",\n          \"citation\": \"zto.md:1-1\"\n        }\n      ]\n    }\n  ],\n  \"example\": \"Historical ZTO-first documents; no network request or current chain claim.\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/catalog-health/health.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\"healthy\": true, \"missing_dependency_targets\": [], \"packages\": 5, \"releases\": 10}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-3/tools/citation-report/report.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"format\": \"citation-review/v1\",\n  \"all_unchanged\": true,\n  \"entry_count\": 2,\n  \"review_count\": 0,\n  \"entries\": [\n    {\n      \"id\": \"zto\",\n      \"status\": \"unchanged\",\n      \"needs_review\": false,\n      \"source\": \"zto.md\"\n    },\n    {\n      \"id\": \"pool\",\n      \"status\": \"unchanged\",\n      \"needs_review\": false,\n      \"source\": \"pool.md\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-1/tools/candidate-additions/candidate_additions.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "movement, replacement and intent need human review.\",\n    \"Shared additions are required once at the greatest branch count, not summed.\",\n    \"Net-zero moves and additions offset by identical deletions are invisible.\",\n    \"No check of ordering, deletions, conflict markers, syntax, semantics or approval.\",\n    \"Any file/directory collision and its descendants are conservatively blocked.\",\n    \"Stable bounded UTF-8 trees required; reads are not atomic or protected against path races.\",\n    \"Hashes identify bytes, not authors; source text is omitted but hashes can reveal guessable lines.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/receipt-audit/audit.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": ".\",\n  \"digestPinned\": false,\n  \"fieldCount\": 5,\n  \"format\": \"receipt-audit/1\",\n  \"layoutSha256\": \"6d3bbc017f81f66d785f895fe1cffaa65c9ec4351f8043fb92b93e3ed331fd0a\",\n  \"receiptSha256\": \"e6ce4e90a58dbb6b1399e76a13e56f0f4559c5a101133df3fc2da5a779be9999\",\n  \"slotCount\": 1,\n  \"stateRoot\": \"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\n  \"trust\": \"Saved receipt matches freshly verified evidence against the supplied root, address and layout. Root authentication, layout meaning, freshness and consensus remain caller responsibilities. Demo text is ignored.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-1/tools/candidate-order/candidate_order.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "date; unrelated candidate lines may interleave freely.\",\n      \"No ordering constraint between independent branches; shared occurrences may satisfy both traces.\",\n      \"Untouched lines, net-zero moves, deletions, empty-file presence, syntax and semantics are not checked.\",\n      \"Intentional reordering or removal can require review; checked means this policy passed, not approval.\",\n      \"Exact line endings matter. Line hashes omit source text but can reveal guessable content.\",\n      \"Reads require stable bounded UTF-8 trees; no atomic snapshot or protection against path races.\"\n    ]\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/receipt-capsule/capsule.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "ss and consensus remain caller responsibilities. Demo text is ignored.\",\n    \"verified\": true\n  },\n  \"capsuleBytes\": 17843,\n  \"demo\": \"Real historical ZTO/IMD block 26212390. Pins are inherited RPC observations, not independently authenticated checkpoints. No current-state claim.\",\n  \"format\": \"receipt-capsule-result/1\",\n  \"layoutPinned\": true,\n  \"trust\": \"Header, receipt and proof match the externally supplied block hash, address and layout digest. Authenticate those pins independently. Consensus, chain identity, finality, freshness and layout meaning are not verified.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-2/tools/request-coverage/coverage.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "4e8f\",\n    \"trust\": \"Every listed account and slot is proven against one header matching the supplied hash. The caller must authenticate that hash, chain, canonicality and finality independently. Code checks establish stored byte identity only, not source, ABI, layout, proxy targets or behavior.\",\n    \"verified\": true\n  },\n  \"requestSha256\": \"fe73c071e039b1c7202b72bb21b5b767b796ba94e85975aa1847034a0fdbad0b\",\n  \"trust\": \"Coverage matches the separately supplied request and every proof matches the supplied block hash. Authenticate the request and checkpoint independently.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/search-replay/replay.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"historical_zto_result\": {\n    \"format\": \"evidence-search-replay/v1\",\n    \"reproduced\": true,\n    \"limit\": 3,\n    \"expected_hits\": 3,\n    \"saved_hits\": 3,\n    \"current_sources_checked\": false,\n    \"scope\": \"Deterministic snapshot ranking and citations; not truth or live freshness.\"\n  },\n  \"altered_line_citation\": {\n    \"format\": \"evidence-search-replay/v1\",\n    \"reproduced\": false,\n    \"limit\": 3,\n    \"expected_hits\": 3,\n    \"saved_hits\": 3,\n    \"current_sources_checked\": false,\n    \"scope\": \"Deterministic snapshot ranking and citations; not truth or live freshness.\"\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/support-prune/prune.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\"<3,>=1.21.1\"\n        }\n      },\n      \"urllib3\": {\n        \"1.26.20\": {}\n      }\n    },\n    \"roots\": {\n      \"requests\": \"==2.32.5\",\n      \"urllib3\": \"<2\"\n    }\n  },\n  \"removed\": [\n    {\n      \"constraint\": \"==2.32.5\",\n      \"package\": \"requests\",\n      \"release\": \"2.31.0\",\n      \"source\": \"root\"\n    },\n    {\n      \"constraint\": \"<2\",\n      \"package\": \"urllib3\",\n      \"release\": \"2.5.0\",\n      \"source\": \"root\"\n    }\n  ],\n  \"retained_releases\": 8,\n  \"root_candidates\": {\n    \"requests\": [\n      \"2.32.5\"\n    ],\n    \"urllib3\": [\n      \"1.26.20\"\n    ]\n  },\n  \"status\": \"not_proven_unsatisfiable\"\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-4/tools/solution-census/census.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "25.1\": 2,\n        \"2.31.0\": 12,\n        \"2.32.5\": 12\n      }\n    },\n    \"urllib3\": {\n      \"absent\": 0,\n      \"always_absent\": false,\n      \"forced\": \"1.26.20\",\n      \"versions\": {\n        \"1.26.20\": 26,\n        \"2.5.0\": 0\n      }\n    }\n  },\n  \"status\": \"complete\",\n  \"witnesses\": [\n    {\n      \"certifi\": \"2025.8.3\",\n      \"charset-normalizer\": \"3.4.3\",\n      \"idna\": \"2.10\",\n      \"requests\": \"2.31.0\",\n      \"urllib3\": \"1.26.20\"\n    },\n    {\n      \"certifi\": \"2025.8.3\",\n      \"charset-normalizer\": \"3.4.3\",\n      \"idna\": \"2.10\",\n      \"requests\": \"2.32.5\",\n      \"urllib3\": \"1.26.20\"\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/json-change-audit/json_change_audit.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "    }\n    ]\n  },\n  \"limits\": [\n    \"JSON object members are compared structurally; arrays and type replacements are atomic.\",\n    \"Conflicting branch expectations always require review, even if candidate chooses one.\",\n    \"Only branch changes are checked; unrelated candidate edits and non-JSON contents are not audited.\",\n    \"No semantic correctness, approval, rename tracking, formatting or author authentication.\",\n    \"Stable trusted workspace trees required; reads are bounded but not atomic.\",\n    \"Pointers expose member names. Reports omit values; manifests are not confidentiality.\"\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-1/tools/merge-receipt/merge_receipt.py shared/merge-dependencies/examples/base.json shared/merge-dependencies/examples/ours.json shared/merge-dependencies/examples/theirs.json",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " },\n    {\n      \"path\": \"shared/merge-dependencies/examples/theirs.json\",\n      \"bytes\": 966,\n      \"lines\": 50,\n      \"sha256\": \"e5eb2412713efb68f436e4722cff08f30e13d65083fd2c693772e9563a1318d5\",\n      \"changes\": [\n        {\n          \"kind\": \"replace\",\n          \"base\": [\n            46,\n            46\n          ],\n          \"branch\": [\n            46,\n            46\n          ],\n          \"removed\": 1,\n          \"added\": 1\n        }\n      ],\n      \"total_changes\": 1,\n      \"shown_changes\": 1,\n      \"truncated\": false,\n      \"total_removed_lines\": 1,\n      \"total_added_lines\": 1\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/mapping-path/mapping_path.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " \"0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc55920000000000000000000000000000000000000000000000000000000000000006\",\n      \"type\": \"bytes32\"\n    }\n  ],\n  \"storageExists\": true,\n  \"storageSlot\": \"0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\",\n  \"trust\": \"Only the raw word at the derived slot is proven relative to the supplied block hash. Authenticate checkpoint, chain, canonicality and finality independently; storage layout and token meaning remain caller assumptions. No current-state or behavior claim is made.\",\n  \"verified\": true,\n  \"wordOffset\": \"0\"\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/search-batch/batch.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "d03e263b7.\\n\\n## Source boundary\"\n          }\n        ]\n      }\n    },\n    {\n      \"id\": \"absent\",\n      \"limit\": 2,\n      \"result\": {\n        \"format\": \"evidence-search-results/v1\",\n        \"query\": \"glacial orchid\",\n        \"terms\": [\n          \"glacial\",\n          \"orchid\"\n        ],\n        \"require_all\": true,\n        \"indexed_documents\": 3,\n        \"indexed_passages\": 6,\n        \"hits\": []\n      }\n    }\n  ],\n  \"coverage\": {\n    \"cited_documents\": [\n      \"pool.md\",\n      \"zto.md\"\n    ],\n    \"uncited_documents\": [\n      \"imd.md\"\n    ],\n    \"no_hit_query_ids\": [\n      \"absent\"\n    ]\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/solution-equivalence/equivalence.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "{\n  \"after_sha256\": \"0ea89e238d52321ddc12c2fc001f435f4f3e0fd4efa39329dac4626aa08a81ee\",\n  \"before_sha256\": \"79f66d7e470497dc2863af123882282ca645f094d1bd7361b7c4817cc0e3911c\",\n  \"candidate_assignments\": 108,\n  \"checked_assignments\": 108,\n  \"max_assignments\": 10000,\n  \"method\": \"finite-selection-equivalence-v1\",\n  \"release_labels\": \"four numeric components; equivalent numeric labels coalesced\",\n  \"status\": \"equivalent\"\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-1/tools/merge-receipt/merge_receipt.py --demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "nes\": 1,\n      \"total_added_lines\": 1\n    },\n    {\n      \"path\": \"demo:theirs\",\n      \"bytes\": 21,\n      \"lines\": 3,\n      \"sha256\": \"24b9a4adb66ef13ff880388b0592a31af66ede146e44672b04554f3272b25ec0\",\n      \"changes\": [\n        {\n          \"kind\": \"replace\",\n          \"base\": [\n            3,\n            3\n          ],\n          \"branch\": [\n            3,\n            3\n          ],\n          \"removed\": 1,\n          \"added\": 1\n        }\n      ],\n      \"total_changes\": 1,\n      \"shown_changes\": 1,\n      \"truncated\": false,\n      \"total_removed_lines\": 1,\n      \"total_added_lines\": 1\n    }\n  ]\n}\n",
+      "stderr_tail": "",
+      "line": 1
+    },
+    {
+      "command": "python3 -B line-2/tools/field-change/field_change.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "itmentChanged\": true\n  },\n  \"trust\": \"Authenticate the tip hash and chain, consensus/execution validity, canonicality and finality independently. Review the layout at BOTH endpoints, including proxy implementation changes; even an unchanged account code hash does not prove stable layout or semantics. Fingerprinting binds assumptions, not truth. Signed deltas are endpoint arithmetic, not events, transfers, profit, balances or swap quotes. Equal endpoints can hide intermediate changes. Unnamed bits are reported without interpretation; unrequested slots are not enumerated.\",\n  \"verified\": true\n}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/evidence-bundle/bundle.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "erified\": true,\n        \"score\": 1.98479013,\n        \"matched_terms\": [\n          \"decimals\",\n          \"token\",\n          \"zto\"\n        ],\n        \"text\": \"# ZTO on Ethereum\\n\\nZTO token name: Zero To One.\\nContract address: 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e.\\nChain ID: 1 (Ethereum mainnet).\\nToken decimals: 18.\\nTotal supply in smallest token units: 1000000000000000000000000000.\\n\\n## Observation and trust\"\n      }\n    ]\n  },\n  \"note\": \"In-memory pack/check; no files written. Unpack reproduces the receipt. Historical ZTO evidence, not current chain state or truth authentication.\"\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/component-census/components.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "omplete\",\n      \"witness\": {\n        \"urllib3\": \"1.26.20\"\n      }\n    }\n  ],\n  \"count_kind\": \"exact\",\n  \"demonstration_roots\": {\n    \"certifi\": \"*\",\n    \"charset-normalizer\": \"*\",\n    \"idna\": \"*\",\n    \"urllib3\": \"<2\"\n  },\n  \"empty_component_index\": null,\n  \"ignored_packages\": [\n    \"requests\"\n  ],\n  \"max_assignments\": 10000,\n  \"method\": \"independent-component-census-v1\",\n  \"split_candidate_assignments\": 7,\n  \"status\": \"complete\",\n  \"unsplit_candidate_assignments\": 8,\n  \"witness\": {\n    \"certifi\": \"2025.8.3\",\n    \"charset-normalizer\": \"3.4.3\",\n    \"idna\": \"3.10\",\n    \"urllib3\": \"1.26.20\"\n  }\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    },
+    {
+      "command": "python3 -B line-2/tools/proof-prune/prune.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "0x1\",\"stateRoot\":\"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\"storage\":[{\"exists\":false,\"slot\":\"0x0\",\"value\":\"0x0\"},{\"exists\":false,\"slot\":\"0x1\",\"value\":\"0x0\"}],\"storageRoot\":\"0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8\",\"trust\":\"Proven relative to the supplied state root; consensus, block identity, and finality are not verified.\",\"verified\":true},\"stateRoot\":\"0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\",\"storage\":[{\"afterNodes\":4,\"beforeNodes\":4,\"slot\":\"0x0\"},{\"afterNodes\":3,\"beforeNodes\":3,\"slot\":\"0x1\"}],\"verified\":true}\n",
+      "stderr_tail": "",
+      "line": 2
+    },
+    {
+      "command": "python3 -B line-3/tools/search-evaluate/evaluate.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\": 1.0,\n      \"reciprocal_rank\": 1.0\n    },\n    {\n      \"id\": \"missed\",\n      \"query\": \"glacial orchid\",\n      \"limit\": 2,\n      \"require_all\": true,\n      \"hits\": [],\n      \"found\": [],\n      \"missed\": [\n        {\n          \"path\": \"imd.md\",\n          \"line_start\": 6,\n          \"line_end\": 6\n        }\n      ],\n      \"target_recall\": 0.0,\n      \"labelled_hit_precision\": 0.0,\n      \"reciprocal_rank\": 0.0\n    }\n  ],\n  \"macro\": {\n    \"target_recall\": 0.6666666666666666,\n    \"labelled_hit_precision\": 0.6666666666666666,\n    \"reciprocal_rank\": 0.6666666666666666\n  },\n  \"all_targets_found\": false\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-3/tools/search-compare/compare.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": " },\n      \"regressed_metrics\": [],\n      \"improved_metrics\": [],\n      \"lost_targets\": [],\n      \"gained_targets\": []\n    },\n    {\n      \"id\": \"missed\",\n      \"delta\": {\n        \"target_recall\": 0.0,\n        \"labelled_hit_precision\": 0.0,\n        \"reciprocal_rank\": 0.0\n      },\n      \"regressed_metrics\": [],\n      \"improved_metrics\": [],\n      \"lost_targets\": [],\n      \"gained_targets\": []\n    }\n  ],\n  \"macro_delta\": {\n    \"target_recall\": 0.0,\n    \"labelled_hit_precision\": 0.0,\n    \"reciprocal_rank\": 0.0\n  },\n  \"regressed_query_ids\": [],\n  \"improved_query_ids\": [],\n  \"no_regressions\": true\n}\n",
+      "stderr_tail": "",
+      "line": 3
+    },
+    {
+      "command": "python3 -B line-4/tools/pin-core/pin_core.py demo",
+      "exit": 0,
+      "expected_exit": 0,
+      "stdout_tail": "\n      \"selected\": {\n        \"certifi\": \"2025.8.3\",\n        \"charset-normalizer\": \"3.4.3\",\n        \"idna\": \"3.10\",\n        \"requests\": \"2.31.0\",\n        \"urllib3\": \"1.26.20\"\n      }\n    }\n  ],\n  \"demonstration_roots\": {\n    \"requests\": \"*\",\n    \"urllib3\": \"<2\"\n  },\n  \"discarded_pins\": {\n    \"certifi\": \"2025.8.3\"\n  },\n  \"max_assignments\": 10000,\n  \"method\": \"finite-pin-core-v1\",\n  \"minimality\": \"subset-minimal, not necessarily minimum cardinality\",\n  \"observed_pin_patterns\": 6,\n  \"pins\": {\n    \"certifi\": \"2025.8.3\",\n    \"idna\": \"3.10\",\n    \"requests\": \"2.25.1\"\n  },\n  \"status\": \"incompatible\"\n}\n",
+      "stderr_tail": "",
+      "line": 4
+    }
+  ],
+  "total_tests": 958,
+  "line_files_unchanged": true,
+  "protected_files_count": 836,
+  "protected_files_sha256": "6f62dc207283a9285bdf8a3295d7765b2a3bf65078aedd0d43f9812fe64e919a"
+}

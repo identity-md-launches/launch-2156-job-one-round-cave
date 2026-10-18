@@ -1,0 +1,130 @@
+{
+  "line_1": {
+    "tool": "Bounded Merge Receipt",
+    "branch_hunks": [
+      1,
+      1
+    ],
+    "exit": 0
+  },
+  "line_2": {
+    "tool": "Proof Prune",
+    "report": {
+      "account": {
+        "afterNodes": 10,
+        "beforeNodes": 12
+      },
+      "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+      "demo": "Real historical ZTO proof plus one unrelated real pool node and one duplicate; the root is an RPC observation, not an independently trusted checkpoint.",
+      "format": "proof-prune-report/1",
+      "removedOccurrences": 2,
+      "state": {
+        "accountExists": true,
+        "address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "codeHash": "0x24e03ed7d7d3d6dc010b9a9836e419a3eb4215383b463f4e6685b4816435f16d",
+        "nativeBalanceWei": "0",
+        "nonce": "0x1",
+        "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+        "storage": [
+          {
+            "exists": false,
+            "slot": "0x0",
+            "value": "0x0"
+          },
+          {
+            "exists": false,
+            "slot": "0x1",
+            "value": "0x0"
+          }
+        ],
+        "storageRoot": "0x9f797ae0bae7c79c8f9c259b07a2fbca558644948b458448d501a03e5b6b98c8",
+        "trust": "Proven relative to the supplied state root; consensus, block identity, and finality are not verified.",
+        "verified": true
+      },
+      "stateRoot": "0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512",
+      "storage": [
+        {
+          "afterNodes": 4,
+          "beforeNodes": 4,
+          "slot": "0x0"
+        },
+        {
+          "afterNodes": 3,
+          "beforeNodes": 3,
+          "slot": "0x1"
+        }
+      ],
+      "verified": true
+    },
+    "exit": 0
+  },
+  "line_3": {
+    "tool": "Search Evaluate and Search Compare",
+    "evaluation_macro": {
+      "target_recall": 0.6666666666666666,
+      "labelled_hit_precision": 0.6666666666666666,
+      "reciprocal_rank": 0.6666666666666666
+    },
+    "comparison_macro_delta": {
+      "target_recall": 0.0,
+      "labelled_hit_precision": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    "no_regressions": true,
+    "exit": 0
+  },
+  "line_4": {
+    "tool": "Pin Core",
+    "report": {
+      "candidate_assignments": 216,
+      "catalog_sha256": "618c866ea4556e9df209a514d6e91894fd5ee71b47c7b700a65db9fa93d70f77",
+      "checked_assignments": 216,
+      "compatible_selections_seen": 26,
+      "core": {
+        "idna": "3.10",
+        "requests": "2.25.1"
+      },
+      "deletion_witnesses": [
+        {
+          "removed_pin": "idna",
+          "selected": {
+            "certifi": "2025.8.3",
+            "chardet": "4.0.0",
+            "idna": "2.10",
+            "requests": "2.25.1",
+            "urllib3": "1.26.20"
+          }
+        },
+        {
+          "removed_pin": "requests",
+          "selected": {
+            "certifi": "2025.8.3",
+            "charset-normalizer": "3.4.3",
+            "idna": "3.10",
+            "requests": "2.31.0",
+            "urllib3": "1.26.20"
+          }
+        }
+      ],
+      "demonstration_roots": {
+        "requests": "*",
+        "urllib3": "<2"
+      },
+      "discarded_pins": {
+        "certifi": "2025.8.3"
+      },
+      "max_assignments": 10000,
+      "method": "finite-pin-core-v1",
+      "minimality": "subset-minimal, not necessarily minimum cardinality",
+      "observed_pin_patterns": 6,
+      "pins": {
+        "certifi": "2025.8.3",
+        "idna": "3.10",
+        "requests": "2.25.1"
+      },
+      "status": "incompatible"
+    },
+    "exit": 0
+  },
+  "qualification": "Historical offline evidence; no fresh RPC, live price, installation or consensus claim."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "line-4/tools/pin-core/pin_core.py",
+  "source_sha256": "30fcf49e97804ae0166190af2663bf62c4f2fa3d838dd67d52a48120ca5160a2",
+  "copy": "shared/merge-dependencies/pin_core.py",
+  "copy_sha256": "b54a777efd70c7990fc4a13ddfdc552969653b1a83af5b134cef8e88a34fc84f",
+  "adaptations": [
+    "Point the checker import to the existing portable exhaustive.py.",
+    "Point the standalone illustrative demo to the local historical Requests catalog."
+  ],
+  "dependencies": [
+    "exhaustive.py",
+    "resolve.py"
+  ],
+  "origin": "Line 4 Pin Core; no search algorithm changes."
+}

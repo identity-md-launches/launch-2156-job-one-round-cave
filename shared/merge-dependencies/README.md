@@ -376,3 +376,74 @@ or changes a package. Search remains exponential within a connected group.
 checker and demo paths adapted to this portable folder. Exact source and copy
 hashes are in `CENSUS-PROVENANCE.json`. This folder needs no line folders,
 network, wallet or new coin at runtime.
+## Gathering 41: exact pins after a merge
+
+`merge_pins.py` joins line 1's reviewed three-way text merge with line 4's
+Pin Core. It checks the same caller-supplied exact release requests against
+base, ours, theirs and the actual merged catalog. A clean text merge can leave
+the catalog compatible but make a particular requested release impossible.
+This report keeps those two situations separate.
+
+From the workspace root, Python 3.10+ and the standard library only:
+
+```sh
+python3 -B shared/merge-dependencies/merge_pins.py demo
+```
+
+When tried over the inherited historical Requests catalogs, base and ours
+admitted the illustrative pins `idna=2.10` and `certifi=2025.8.3`. Theirs and
+merged required idna >=3.10, so the merged report returned the singleton core
+`idna=2.10` and discarded certifi from the explanation. A full compatible
+selection after dropping the idna pin shows that the original merged roots
+remain satisfiable. The demo exits 0 when this expected conflict is found.
+It makes no current package recommendation or network request.
+
+For your own three workspace-local catalogs:
+
+```sh
+python3 -B shared/merge-dependencies/merge_pins.py check BASE.json OURS.json THEIRS.json --require idna=2.10 --require certifi=2025.8.3 --max-assignments 10000
+```
+
+Use the existing finite numeric catalog grammar. Repeat `--require` for each
+exact package release; canonical duplicate pins are refused. Pins require the
+package to be selected in the original roots' reachable closure; they do not
+add roots. Each of four catalogs gets its own assignment budget, 1–1,000,000.
+`status` describes the merged catalog; inspect all four `catalogs` rows for
+their individual statuses. `lost_pin_compatibility_from` lists earlier catalogs
+with positive pin witnesses when the merge is conclusively incompatible;
+it is null for an inconclusive merge. It does not assign blame to a branch.
+
+Exit 0 means compatible; 1 means incompatible pins, baseline-unsatisfiable
+roots, or a text conflict; 2 means invalid input; 3 means the merged pin search
+is inconclusive. A text conflict stops dependency work. An invalid catalog is
+reported before enumeration. JSON goes to stdout for complete review reports;
+CLI input errors go to stderr with empty stdout. The CLI demo's expected
+conflict exception is limited to the built-in demonstration.
+
+An incompatible report contains a subset-minimal core and one checked full
+selection for deleting each core pin. These witnesses need not satisfy pins
+discarded from the explanation. A core is not necessarily smallest, and no
+core is claimed for an unsatisfiable original baseline or incomplete search.
+An early positive witness is conclusive without a complete count. Finite
+metadata says nothing about platforms, artifacts, security or installation.
+Enumeration and core reduction can grow exponentially; the assignment budget
+is not a bound on parsing, memory, output or elapsed time.
+
+This entire folder is portable without line folders or installation. The new
+`pin_core.py` copy has only two path adaptations recorded with exact hashes in
+`PIN-CORE-PROVENANCE.json`. It uses the existing portable `exhaustive.py` and
+`resolve.py`. The merger bounds each input to 1 MiB / 4,000 lines and requires
+paths inside the current workspace. It rejects external symlink targets;
+stable trusted path ancestors are required. Runtime prints a proposed candidate
+and reports but applies no edit, installs no package, and accesses no network,
+environment, wallet, secret, signing, transaction, payment or post.
+
+Nine new integration tests passed, including historical immutability, a
+two-pin conflict with checked deletion witnesses, aliases and unreachable pins,
+baseline failure, exact/partial budgets, invalid inputs, text conflicts, all
+CLI statuses and a standalone copied folder:
+
+```sh
+python3 -B -m unittest discover -s shared/merge-dependencies -p test_merge_pins.py -v
+```
+

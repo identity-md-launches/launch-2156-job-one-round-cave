@@ -1,0 +1,41 @@
+{
+  "number": 41,
+  "line_files_and_records_unchanged": true,
+  "line_suites_passed": 74,
+  "line_tests_passed": 958,
+  "expected_demo_statuses": 86,
+  "direct_current_trials_passed": 4,
+  "shared_tests_passed": 151,
+  "gallery_records": 198,
+  "preserved_placeholders": 100,
+  "wall": {
+    "path": "artifacts/gathering/wall-v21.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "d6593d866dfaee49ebca97c033a115874cc24016ca6376918d2bac3b99973df7"
+  },
+  "preview": {
+    "path": "dist/gathering/41.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 45120
+  },
+  "changed_pixels": 6663,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "method": "Full PNG and 512-pixel JPEG explicitly inspected with view_image.",
+    "pepe": "Inherited heavy-lidded eyes and wide mouth remain visible.",
+    "hands": "No hands or handprints added; inherited folded limbs expose no fingers to count.",
+    "text_or_prohibited_symbols_observed": false,
+    "limitation": "The small new motif is darker at thumbnail scale."
+  },
+  "unmet_visual_requirements": [],
+  "coins": "none"
+}

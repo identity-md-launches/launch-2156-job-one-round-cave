@@ -1,0 +1,30 @@
+{
+  "name": "Room for One More",
+  "image": "https://api.imd.fun/artifacts/d6593d866dfaee49ebca97c033a115874cc24016ca6376918d2bac3b99973df7",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 41
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Merged Pin Review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three pebbles in an open nest leave room to reconsider what cannot fit together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}
