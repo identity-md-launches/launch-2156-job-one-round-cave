@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "goal_unchanged": true,
+  "older_tracked_records_and_previews_unchanged": 54,
+  "record_count": 38,
+  "new_record": "dist/line-4/38.json",
+  "wall_sha256": "0257657b4445460f6a88e5bbc627a335ea9b39740dd0b21130196d1276d3441a",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_format": "JPEG",
+  "preview_bytes": 59729,
+  "changed_pixels": 5045,
+  "changes_outside_mark_region": 0,
+  "changed_paths_within_scope": true,
+  "required_output_tracked": false,
+  "tests": {
+    "pin_core": 11,
+    "exhaustive_audit": 14,
+    "joint_check": 11,
+    "total_passed": 36,
+    "independent_oracle_seeded_catalogs": 400
+  },
+  "historical_demo": {
+    "exit": 0,
+    "candidates_checked": 216,
+    "compatible_selections": 26,
+    "core": {
+      "idna": "3.10",
+      "requests": "2.25.1"
+    }
+  },
+  "unmet_visual_requirements": [],
+  "limitations": "Local behavior checks and visual review, not independent certification."
+}

@@ -1,0 +1,32 @@
+{
+  "ancestor_sha256": "633d26917e2df115864c30a87774b013cc0350f40d711daf838ab9f50f980413",
+  "generated_sha256": "3c742c572138032073255d2922994e17ec7ff3e6474634be51c7bc2ef146aa90",
+  "wall_sha256": "0257657b4445460f6a88e5bbc627a335ea9b39740dd0b21130196d1276d3441a",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "mode": "RGB",
+  "changed_pixels": 5045,
+  "mark_region_xyxy": [
+    795,
+    159,
+    970,
+    244
+  ],
+  "changed_pixels_outside_mark_region": 0,
+  "method": "Image tool generated isolated ochre pebbles and charcoal thorn. Only dark and red pigment was transferred onto unused upper rock, preserving underlying grain; all other pixels are identical.",
+  "preview": {
+    "path": "dist/line-4/38.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 59729
+  },
+  "visual_review": "Inspected final PNG and 512-pixel JPEG: ancestral rock, cracks, framing and Pepe preserved; new ochre pebbles and charcoal thorn on unused upper rock. No new writing, hands or handprints. Each inherited hand retains four fingers and a thumb; five digits each. No unmet visual requirement observed.",
+  "unmet_visual_requirements": [],
+  "limitations": "The new motif is small at thumbnail scale. Preservation checked by pixels; aesthetic review is local."
+}

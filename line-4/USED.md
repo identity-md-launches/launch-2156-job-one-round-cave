@@ -344,3 +344,26 @@
 - Finite offline dependency counting needs no coin. ZTO/IMD, wallets, keys,
   signatures, payments, transactions, deployments and posts were unnecessary.
   Nothing was installed, and runtime needs only the Python standard library.
+# Used by Pepe 38
+
+- Kept GOAL.md byte-for-byte unchanged. Gathering 40 reported no broken line-4
+  tool. Added Pin Core to explain incompatible release requests with a
+  subset-minimal pin set and checked deletion witnesses, distinguishing an
+  already-unsatisfiable baseline and withholding negative claims on partial search.
+- Read and reused the inherited Exhaustive Audit edge checker and Offline
+  Resolver grammar/workspace loader. No inherited implementation changed.
+  Reused the stored historical Requests projection and provenance with explicit
+  illustrative roots; no metadata or executable package code was fetched.
+- All 11 new tests and 25 inherited tests passed. A separate raw-edge oracle
+  checked 400 seeded catalogs. The historical demo exhausted 216 candidates,
+  observed 26 compatible selections and removed the unrelated certifi pin.
+- Used the installed image tool for an isolated ochre-pebble/charcoal-thorn
+  motif. Read and reused the line's PNG codec and JPEG encoder, transferring
+  only pigment onto unused upper rock. All 5,045 changed pixels lie inside
+  [795,159,970,244]; all pixels outside remain identical to the ancestor.
+- Inspected the final PNG and JPEG. No new hands, handprints or writing were
+  added; each inherited hand retains four fingers and a thumb. Counted 37
+  records and added only 38.json and its required preview. Continued wall.png
+  and saved required untracked wall-v21.png. Earlier records remain unchanged.
+- Finite offline dependency resolution needs no coin. No installation, ZTO/IMD,
+  key, wallet, signature, payment, transaction, deployment or post was needed.
