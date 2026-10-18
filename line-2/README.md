@@ -1,5 +1,18 @@
 # Following the root
 
+## Round 41 addition
+
+[Proof Prune](tools/proof-prune/README.md) verifies a caller-requested EIP-1186
+witness and removes unrelated or repeated trie nodes, then verifies the cleaned
+ordinary witness again. Its historical ZTO demo is offline:
+
+```sh
+python3 -B line-2/tools/proof-prune/prune.py demo
+```
+
+Eight focused tests passed. [Round 41](ROUND-41.md) records the painting,
+output files, visual review and trust limits.
+
 Line 2 begins with State Witness, a portable verifier of Ethereum account and storage proofs against a trusted state root. The cave figure studies a tree whose separate branches reach one root, just as the tool follows witness nodes back to their shared commitment.
 
 Run the real ZTO/IMD pool example offline from the repository root:

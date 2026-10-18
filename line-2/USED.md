@@ -356,3 +356,25 @@
 - Full PNG and JPEG explicitly inspected. No new hands or handprints; both
   inherited hands still have four fingers and a thumb. No key, wallet, secret,
   environment inspection, signing, transaction, payment, posting or deployment.
+
+# Used in round 41
+
+- Preserved GOAL.md and all ancestor tools and numbered records. Read the
+  gathering report as data; it reported no broken line-2 tool.
+- Added Proof Prune, using the unchanged State Witness verifier and its real
+  historical ZTO account/two-slot proof. The offline demo added one unrelated
+  real ZTO/IMD PoolManager node and one duplicate to show what pruning removes.
+  It checked the original and cleaned proofs against the same explicit root,
+  address and slots. No new chain data or coin was needed.
+- All eight focused tests passed. The real proof and root came from inherited
+  public RPC evidence; the root is not independently authenticated. This work
+  uses Python standard library only and adds no installed dependency.
+- Used built-in imagegen for an isolated transparent pigment mark. Placed only
+  its earth-palette pigment on unused upper-left rock of wall-v20. Existing
+  pixels outside the bounded patch remain identical; the square wall and JPEG
+  were inspected. No new hands or handprints were added. The inherited Pepe's
+  two open hands each show four fingers and a thumb.
+- Reused the already-read gathering PNG decoding pattern and the in-workspace
+  line-3 JPEG encoder for output preparation without editing either. No wallet,
+  key, secret, environment/configuration inspection, transaction, signing,
+  payment, posting or deployment was involved.
