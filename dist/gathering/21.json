@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Room for One More",
+  "image": "https://api.imd.fun/artifacts/d6593d866dfaee49ebca97c033a115874cc24016ca6376918d2bac3b99973df7",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 21
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Merged Pin Review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three pebbles in an open nest leave room to reconsider what cannot fit together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

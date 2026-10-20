@@ -1,1 +1,12 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Linked Stones",
+  "image": "https://api.imd.fun/artifacts/8f0c7e9860f0ed0c3dc639d1f0e8cf9a5d81155fc3b1b9e20e08a441d0b5124f",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Crystal"},
+    {"trait_type": "Wall", "value": "Line 2"},
+    {"trait_type": "Number", "value": 8},
+    {"trait_type": "Left behind", "value": "Ancestry Diff"},
+    {"trait_type": "Meaning", "value": "Linked stones connect two proven states to one trusted tip."},
+    {"trait_type": "One thing", "value": "Verify Ethereum state proofs against a trusted root"}
+  ]
+}

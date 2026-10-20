@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Rejoined Trail",
+  "image": "https://api.imd.fun/artifacts/05e0f6c5ef9d0da5c9b9cc942e1918dce9cb94d918b24da260b00e4ab11dd20e",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Citation Report and Citation Trail"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones joined by a charcoal trail reconnect a checked passage to its source."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

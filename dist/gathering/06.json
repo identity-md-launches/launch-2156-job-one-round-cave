@@ -1,1 +1,12 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Paths to repair",
+  "image": "https://api.imd.fun/artifacts/46c6ab96f45c5868658d0ec78c268e23384bd2e98494727d2b23eddd785d271a",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Crystal"},
+    {"trait_type": "Wall", "value": "Gathering"},
+    {"trait_type": "Number", "value": 6},
+    {"trait_type": "Left behind", "value": "Merge Dependencies Root Repair"},
+    {"trait_type": "Meaning", "value": "Painted paths meet at a chalk pebble, echoing checks that lead to a repair proposal."},
+    {"trait_type": "One thing", "value": "Gathering"}
+  ]
+}

@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The branching review",
+  "image": "https://api.imd.fun/artifacts/87f729d390cb4c33e0933b2a971912b5fe31bb23129c5a555d8cb074a5f15bb5",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Tree review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A branching twig holds separate contributions together for review."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}

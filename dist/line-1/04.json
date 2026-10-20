@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The paired stones",
+  "image": "https://api.imd.fun/artifacts/d28be37ed400aafe0f55a85940153b5b6f9152e402ac17b7944e17653ec7a954",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Review recheck"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two stones held in ochre mark a review checked again before trust."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}

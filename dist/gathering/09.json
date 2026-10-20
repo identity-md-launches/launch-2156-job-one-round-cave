@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Seeds of Choice",
+  "image": "https://api.imd.fun/artifacts/88fc9b1934e5b995fe4feddc9d90df49e1400dd27a4e62196031dd72f9d9e84a",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Merged Release Choices"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Ochre seeds held in a charcoal oval keep several compatible choices within reach."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

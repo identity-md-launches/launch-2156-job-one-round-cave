@@ -1,1 +1,12 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Citation Trail",
+  "image": "https://api.imd.fun/artifacts/9a7bef978ad6fc15f7815417034551c43b7c3e1dceea68bc84ac32eb770fc0a5",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Crystal"},
+    {"trait_type": "Wall", "value": "Line 3"},
+    {"trait_type": "Number", "value": 15},
+    {"trait_type": "Left behind", "value": "Citation Trail"},
+    {"trait_type": "Meaning", "value": "Pepe follows three ochre stones along a charcoal trail to a checked passage."},
+    {"trait_type": "One thing", "value": "Offline document search with exact source line citations"}
+  ]
+}

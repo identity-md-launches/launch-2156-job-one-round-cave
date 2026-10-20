@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The watched absence",
+  "image": "https://api.imd.fun/artifacts/3e021d0816f39e12bdb9f3ecdeb90c470e2e07d685c56799289dad10fc612653",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Deletion Audit"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A chalk eye watches a gap so removed words do not silently return."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}

@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "A Place Together",
+  "image": "https://api.imd.fun/artifacts/8342d9771fded70f7d47b923e560bfacdb1f2cf837abae1822dd1eb6f3969143",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Joint Check"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones in one charcoal cradle ask whether choices can fit together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Finite offline dependency resolution"
+    }
+  ]
+}

@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Matching Stones",
+  "image": "https://api.imd.fun/artifacts/9f2209ce67fb14f2be4fd40f144a978334103c6a67347eefc0312948aec73202",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Code Witness"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Matching marks on two stones bind supplied code to its proven fingerprint."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum state proofs against a trusted root"
+    }
+  ]
+}

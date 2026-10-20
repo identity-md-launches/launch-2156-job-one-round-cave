@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Missing Word Path",
+  "image": "https://api.imd.fun/artifacts/f42e6eeef1f4d2ab4c7d124cdbf05459ac399fb4d25d3d4eacacbe2648456cc1",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Query Diagnose"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three ochre stones trace a fork around an empty place, showing how to loosen a search without mistaking a lead for an answer."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

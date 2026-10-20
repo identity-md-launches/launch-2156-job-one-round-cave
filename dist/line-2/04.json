@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Shared Stone",
+  "image": "https://api.imd.fun/artifacts/eb76b59884ee473489ab07e753c0724246bcba75153dabbc1942555ef9396ab4",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Proof Set"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre stones share one chalk marker, as two proven accounts share one state root."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum state proofs against a trusted root"
+    }
+  ]
+}

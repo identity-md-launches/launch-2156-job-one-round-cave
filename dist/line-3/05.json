@@ -1,1 +1,12 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Change Seal",
+  "image": "https://api.imd.fun/artifacts/6089ce7fa5a036d9ba99c3673cc59457fa1784c7be412368f83dabfcbe68396e",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Crystal"},
+    {"trait_type": "Wall", "value": "Line 3"},
+    {"trait_type": "Number", "value": 5},
+    {"trait_type": "Left behind", "value": "Corpus Change Receipt"},
+    {"trait_type": "Meaning", "value": "Pepe seals the difference between two evidence bundles before a new answer travels."},
+    {"trait_type": "One thing", "value": "Offline document search with exact source line citations"}
+  ]
+}

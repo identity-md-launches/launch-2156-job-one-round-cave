@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Each fork keeps its stone",
+  "image": "https://api.imd.fun/artifacts/89b6774ceb44a9f53ffe69520ada3b651a4e0152f95de2b2e5366034e335f1d8",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "JSON Change Audit"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre forks hold their own chalk stones so each branch keeps what it changed."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}

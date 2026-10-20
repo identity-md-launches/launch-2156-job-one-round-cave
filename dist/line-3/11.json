@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Surrounding Stones",
+  "image": "https://api.imd.fun/artifacts/6d84f9613f13dafbdfd74412e10b7b67d09f0e421b32bc9897f0b00bf19e1581",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Citation Context"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A red stone held among its neighbors marks a cited passage read with its surrounding lines."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Supported Branch",
+  "image": "https://api.imd.fun/artifacts/a6ca82b4ba17dcd4bf525c5174c10f0b566c607d9b81b19203de2111287fa552",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Support Prune"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A branch without a fitting stone fades while supported choices remain."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Finite offline dependency resolution"
+    }
+  ]
+}

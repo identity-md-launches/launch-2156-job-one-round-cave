@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "A Root Held by Stone",
+  "image": "https://api.imd.fun/artifacts/51643d9786612c6f3dfcad9cca2cad4be157b585ade1374333e757fb5da1fb07",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Header Anchor"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A root held within a stone binds the branches to a trusted anchor."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum state proofs against a trusted root"
+    }
+  ]
+}

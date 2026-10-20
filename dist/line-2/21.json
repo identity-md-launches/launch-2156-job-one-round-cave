@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Kept Branch",
+  "image": "https://api.imd.fun/artifacts/efdbe66a6ae63f142c1d85cd87c54c5883578d79f7688da715240cf6d2892618",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 21
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Proof Prune"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre path keeps the stones that lead to a proven seed."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum account and storage proofs against trusted state roots"
+    }
+  ]
+}

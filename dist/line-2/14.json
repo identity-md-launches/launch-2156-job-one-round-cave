@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "Inside the Seed",
+  "image": "https://api.imd.fun/artifacts/4105098ab30a8ea1f9c662d4620dc1f103876f35d97873536699c8be33078a4a",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 14
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Storage Fields"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A banded ochre seed reveals smaller parts within a proven whole."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum account and storage proofs against trusted state roots"
+    }
+  ]
+}

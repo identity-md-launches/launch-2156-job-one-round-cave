@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Counted Evidence",
+  "image": "https://api.imd.fun/artifacts/a9a7bee6a91fe28908b6443f083dafc4c8ca41dce1ea88409db06d28acf15692",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 12
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Citation Ledger"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Stones gathered in an ochre loop mark citations checked together before they are carried onward."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Offline document search with exact source line citations"
+    }
+  ]
+}

@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Gathered Proof",
+  "image": "https://api.imd.fun/artifacts/8716d19560c0ce3a40baef2c907c3421865ab2791971230967024ef1e6b9f41b",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 15
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Proof Receipt"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three ochre strokes gather proven parts around one checkable center."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum account and storage proofs against trusted state roots"
+    }
+  ]
+}

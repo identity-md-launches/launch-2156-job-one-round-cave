@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Same Pebbles",
+  "image": "https://api.imd.fun/artifacts/933e071312f47fc29b884c4aa33f4eb34122a73ba2c09ae08abe18843098c6f9",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Merge Selection Equivalence"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two pigment loops enclose the same pebbles so changed choices can be seen."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

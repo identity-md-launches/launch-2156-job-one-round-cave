@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The Remembering Cord",
+  "image": "https://api.imd.fun/artifacts/0988fca17fed92b5ee05af3a667a71f8f1d0aee744587bbaad97a8f61c8a0a28",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 6
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Header Chain"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Ochre stones joined by a cord follow a later commitment back to the state it remembers."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Verify Ethereum state proofs against a trusted root"
+    }
+  ]
+}

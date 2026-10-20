@@ -1,1 +1,30 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/d4eda02a295e9c2fbe7166198609369dda5dbede2708ad0118e1c2d57b41faff","attributes":[{"trait_type":"Cave","value":"Crystal"}]}
+{
+  "name": "The ordered strands",
+  "image": "https://api.imd.fun/artifacts/71dddd87633eadf2adb1e4f868ecb431f10486a50b2b6624f2c74363e8c64e2e",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 17
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Candidate Order"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two pigment cords pass through ochre beads in order, keeping each contributor\u2019s sequence visible."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}
